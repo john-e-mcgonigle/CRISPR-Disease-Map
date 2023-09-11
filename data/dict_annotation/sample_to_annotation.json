@@ -1,6 +1,10 @@
 {
     "HCT116_T18_ATRI": {
-        "Replicate": "HCT116_T18A_ATRI",
+        "Replicate": [
+            "HCT_T18B_ATRI",
+            "HCT_T18C_ATRI",
+            "HCT116_T18A_ATRI"
+        ],
         "Sample": "HCT116_T18_ATRI",
         "Treatment": "ATRi (VE-831)",
         "Dose": NaN,
@@ -9,7 +13,11 @@
         "KO": NaN
     },
     "HCT116_T18_DMSO": {
-        "Replicate": "HCT116_T18A_DMSO",
+        "Replicate": [
+            "HCT_T18B_DMSO",
+            "HCT_T18C_DMSO",
+            "HCT116_T18A_DMSO"
+        ],
         "Sample": "HCT116_T18_DMSO",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -18,7 +26,11 @@
         "KO": NaN
     },
     "HELA_T18_ATRI": {
-        "Replicate": "HELA_T18C_ATRI",
+        "Replicate": [
+            "HELA_T18A_ATRI",
+            "HELA_T18B_ATRI",
+            "HELA_T18C_ATRI"
+        ],
         "Sample": "HELA_T18_ATRI",
         "Treatment": "ATRi (VE-831)",
         "Dose": NaN,
@@ -27,7 +39,11 @@
         "KO": NaN
     },
     "HELA_T18_DMSO": {
-        "Replicate": "HELA_T18C_DMSO",
+        "Replicate": [
+            "HELA_T18A_DMSO",
+            "HELA_T18B_DMSO",
+            "HELA_T18C_DMSO"
+        ],
         "Sample": "HELA_T18_DMSO",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -36,7 +52,11 @@
         "KO": NaN
     },
     "RPE_T18_ATRI": {
-        "Replicate": "RPE_T18C_ATRI",
+        "Replicate": [
+            "RPE_T18A_ATRI",
+            "RPE_T18B_ATRI",
+            "RPE_T18C_ATRI"
+        ],
         "Sample": "RPE_T18_ATRI",
         "Treatment": "ATRi (VE-831)",
         "Dose": NaN,
@@ -45,7 +65,11 @@
         "KO": NaN
     },
     "RPE_T18_DMSO": {
-        "Replicate": "RPE_T18C_DMSO",
+        "Replicate": [
+            "RPE_T18A_DMSO",
+            "RPE_T18B_DMSO",
+            "RPE_T18C_DMSO"
+        ],
         "Sample": "RPE_T18_DMSO",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -54,25 +78,47 @@
         "KO": NaN
     },
     "T18_ATRi": {
-        "Replicate": "RPE_T18C_ATRI",
+        "Replicate": [
+            "HCT_T18B_ATRI",
+            "HCT_T18C_ATRI",
+            "HCT116_T18A_ATRI",
+            "HELA_T18A_ATRI",
+            "HELA_T18B_ATRI",
+            "HELA_T18C_ATRI",
+            "RPE_T18A_ATRI",
+            "RPE_T18B_ATRI",
+            "RPE_T18C_ATRI"
+        ],
         "Sample": "T18_ATRi",
         "Treatment": "ATRi (VE-831)",
         "Dose": NaN,
         "Days grown": 18,
-        "Cell line": "RPE-1",
+        "Cell line": "HCT116",
         "KO": NaN
     },
     "T18_DMSO": {
-        "Replicate": "RPE_T18C_DMSO",
+        "Replicate": [
+            "HCT_T18B_DMSO",
+            "HCT_T18C_DMSO",
+            "HCT116_T18A_DMSO",
+            "HELA_T18A_DMSO",
+            "HELA_T18B_DMSO",
+            "HELA_T18C_DMSO",
+            "RPE_T18A_DMSO",
+            "RPE_T18B_DMSO",
+            "RPE_T18C_DMSO"
+        ],
         "Sample": "T18_DMSO",
         "Treatment": "DMSO",
         "Dose": NaN,
         "Days grown": 18,
-        "Cell line": "RPE-1",
+        "Cell line": "HCT116",
         "KO": NaN
     },
     "CCNE1_C2_T0": {
-        "Replicate": "TKOv3_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T0",
+        "Replicate": [
+            "TKOv3_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T0"
+        ],
         "Sample": "CCNE1_C2_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -81,7 +127,10 @@
         "KO": "CCNE1-high|TP53"
     },
     "CCNE1_C2_T18": {
-        "Replicate": "TKOv3_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T18B",
+        "Replicate": [
+            "TKOv3_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T18A",
+            "TKOv3_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T18B"
+        ],
         "Sample": "CCNE1_C2_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -90,16 +139,25 @@
         "KO": "CCNE1-high|TP53"
     },
     "WT_T0": {
-        "Replicate": "T0_WT",
+        "Replicate": [
+            "TKOv3_RPE1.hTERT.Cas9.dTP53_WT_T0",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_T0",
+            "T0_WT"
+        ],
         "Sample": "WT_T0",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 3,
-        "Cell line": "293A",
+        "Cell line": "RPE1",
         "KO": NaN
     },
     "WT_T18": {
-        "Replicate": "TKOv2_RPE1.hTERT.Cas9.dTP53_T18_repB",
+        "Replicate": [
+            "TKOv3_RPE1.hTERT.Cas9.dTP53_WT_T18A",
+            "TKOv3_RPE1.hTERT.Cas9.dTP53_WT_T18B",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_WT_T18_repA",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_T18_repB"
+        ],
         "Sample": "WT_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -108,7 +166,10 @@
         "KO": NaN
     },
     "Cisplatin_1": {
-        "Replicate": "S08_Cisplatin-1_T18_B",
+        "Replicate": [
+            "S08_Cisplatin-1_T18_A",
+            "S08_Cisplatin-1_T18_B"
+        ],
         "Sample": "Cisplatin_1",
         "Treatment": "Cisplatin",
         "Dose": "1 mM",
@@ -117,7 +178,10 @@
         "KO": "TP53"
     },
     "CPT_1": {
-        "Replicate": "S08_CPT-1_T18_B",
+        "Replicate": [
+            "S08_CPT-1_T18_A",
+            "S08_CPT-1_T18_B"
+        ],
         "Sample": "CPT_1",
         "Treatment": "Camptothecin",
         "Dose": "5 nM",
@@ -126,7 +190,10 @@
         "KO": "TP53"
     },
     "Etoposide": {
-        "Replicate": "S08_Etoposide_T18_B",
+        "Replicate": [
+            "S08_Etoposide_T18_A",
+            "S08_Etoposide_T18_B"
+        ],
         "Sample": "Etoposide",
         "Treatment": "Etoposide",
         "Dose": "100 nM",
@@ -135,7 +202,10 @@
         "KO": "TP53"
     },
     "HU_chronic": {
-        "Replicate": "S08_HU_chronic_T18_B",
+        "Replicate": [
+            "S08_HU_chronic_T18_A",
+            "S08_HU_chronic_T18_B"
+        ],
         "Sample": "HU_chronic",
         "Treatment": "Hydroxyurea (chronic)",
         "Dose": "100 \u03bcM",
@@ -144,7 +214,10 @@
         "KO": "TP53"
     },
     "IR": {
-        "Replicate": "S08_IR_T18_B",
+        "Replicate": [
+            "S08_IR_T18_A",
+            "S08_IR_T18_B"
+        ],
         "Sample": "IR",
         "Treatment": "IR",
         "Dose": "3 Gy",
@@ -153,7 +226,10 @@
         "KO": "TP53"
     },
     "S08_NT": {
-        "Replicate": "S08_NT_T18_B",
+        "Replicate": [
+            "S08_NT_T18_A",
+            "S08_NT_T18_B"
+        ],
         "Sample": "S08_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -162,16 +238,30 @@
         "KO": "TP53"
     },
     "T0": {
-        "Replicate": "GeCKO_T0_1",
+        "Replicate": [
+            "S08_T0",
+            "S09_T0",
+            "S10_T0",
+            "S02_T0",
+            "S04_T0",
+            "S05_T0",
+            "S06_T0",
+            "S07_T0",
+            "S12_T0",
+            "GeCKO_T0_1"
+        ],
         "Sample": "T0",
         "Treatment": NaN,
         "Dose": NaN,
-        "Days grown": 7,
-        "Cell line": "HeLa",
-        "KO": NaN
+        "Days grown": 0,
+        "Cell line": "RPE1",
+        "KO": "TP53"
     },
     "Doxorubicin": {
-        "Replicate": "S09_Doxorubicin_T18_B",
+        "Replicate": [
+            "S09_Doxorubicin_T18_A",
+            "S09_Doxorubicin_T18_B"
+        ],
         "Sample": "Doxorubicin",
         "Treatment": "Doxorubicin",
         "Dose": "5 nM",
@@ -180,7 +270,10 @@
         "KO": "TP53"
     },
     "H2O2": {
-        "Replicate": "S09_H2O2_T18_B",
+        "Replicate": [
+            "S09_H2O2_T18_A",
+            "S09_H2O2_T18_B"
+        ],
         "Sample": "H2O2",
         "Treatment": "Hydrogen peroxide",
         "Dose": "15 \u03bcM",
@@ -189,16 +282,25 @@
         "KO": "TP53"
     },
     "MMS": {
-        "Replicate": "MMS_c.2.2",
+        "Replicate": [
+            "S09_MMS_T18_A",
+            "S09_MMS_T18_B",
+            "MMS_c.2.1",
+            "MMS_c.2.17",
+            "MMS_c.2.2"
+        ],
         "Sample": "MMS",
-        "Treatment": "Methyl methanesulfonate",
-        "Dose": "88.5 uM",
-        "Days grown": 15,
-        "Cell line": "HAP1",
-        "KO": NaN
+        "Treatment": "MMS",
+        "Dose": "25 nM",
+        "Days grown": 18,
+        "Cell line": "RPE1",
+        "KO": "TP53"
     },
     "S09_NT": {
-        "Replicate": "S09_NT_T18_B",
+        "Replicate": [
+            "S09_NT_T18_A",
+            "S09_NT_T18_B"
+        ],
         "Sample": "S09_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -207,7 +309,10 @@
         "KO": "TP53"
     },
     "Pyridostatin": {
-        "Replicate": "S09_Pyridostatin_T18_B",
+        "Replicate": [
+            "S09_Pyridostatin_T18_A",
+            "S09_Pyridostatin_T18_B"
+        ],
         "Sample": "Pyridostatin",
         "Treatment": "Pyridostatin",
         "Dose": "2.5 \u03bcM",
@@ -216,7 +321,10 @@
         "KO": "TP53"
     },
     "UV": {
-        "Replicate": "S09_UV_T18_B",
+        "Replicate": [
+            "S09_UV_T18_A",
+            "S09_UV_T18_B"
+        ],
         "Sample": "UV",
         "Treatment": "UV",
         "Dose": "5 J/m2",
@@ -225,7 +333,10 @@
         "KO": "TP53"
     },
     "ICRF": {
-        "Replicate": "S10_ICRF_T18_B",
+        "Replicate": [
+            "S10_ICRF_T18_A",
+            "S10_ICRF_T18_B"
+        ],
         "Sample": "ICRF",
         "Treatment": "ICRF-187",
         "Dose": "25 \u03bcM",
@@ -234,7 +345,10 @@
         "KO": "TP53"
     },
     "S10_NT": {
-        "Replicate": "S10_NT_T18_B",
+        "Replicate": [
+            "S10_NT_T18_A",
+            "S10_NT_T18_B"
+        ],
         "Sample": "S10_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -243,7 +357,10 @@
         "KO": "TP53"
     },
     "Gemcitabine": {
-        "Replicate": "S11_Gemcitabine_T18_B",
+        "Replicate": [
+            "S11_Gemcitabine_T18_A",
+            "S11_Gemcitabine_T18_B"
+        ],
         "Sample": "Gemcitabine",
         "Treatment": "Gemcitabine",
         "Dose": "3 nM",
@@ -252,7 +369,10 @@
         "KO": "TP53"
     },
     "S11_NT": {
-        "Replicate": "S11_NT_T18_B",
+        "Replicate": [
+            "S11_NT_T18_A",
+            "S11_NT_T18_B"
+        ],
         "Sample": "S11_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -261,7 +381,10 @@
         "KO": "TP53"
     },
     "Cisplatin_2": {
-        "Replicate": "S01_Cisplatin-2_T18_B",
+        "Replicate": [
+            "S01_Cisplatin-2_T18_A",
+            "S01_Cisplatin-2_T18_B"
+        ],
         "Sample": "Cisplatin_2",
         "Treatment": "Cisplatin",
         "Dose": "1.5 \u03bcM",
@@ -270,7 +393,10 @@
         "KO": "TP53"
     },
     "S01_NT": {
-        "Replicate": "S01_NT_T18_B",
+        "Replicate": [
+            "S01_NT_T18_A",
+            "S01_NT_T18_B"
+        ],
         "Sample": "S01_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -279,7 +405,10 @@
         "KO": "TP53"
     },
     "Bleomycin": {
-        "Replicate": "S02_Bleomycin_T15_B",
+        "Replicate": [
+            "S02_Bleomycin_T15_A",
+            "S02_Bleomycin_T15_B"
+        ],
         "Sample": "Bleomycin",
         "Treatment": "Bleomycin",
         "Dose": "25 nM",
@@ -288,7 +417,10 @@
         "KO": "TP53"
     },
     "S02_NT": {
-        "Replicate": "S02_NT_T15_B",
+        "Replicate": [
+            "S02_NT_T15_A",
+            "S02_NT_T15_B"
+        ],
         "Sample": "S02_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -297,16 +429,24 @@
         "KO": "TP53"
     },
     "Olaparib": {
-        "Replicate": "Olaparib_B",
+        "Replicate": [
+            "S02_Olaparib_T15_A",
+            "S02_Olaparib_T15_B",
+            "Olaparib_A",
+            "Olaparib_B"
+        ],
         "Sample": "Olaparib",
         "Treatment": "Olaparib",
-        "Dose": "250\u2009nM",
-        "Days grown": 21.0,
-        "Cell line": "A375",
-        "KO": NaN
+        "Dose": "5 \u03bcM",
+        "Days grown": 18,
+        "Cell line": "RPE1",
+        "KO": "TP53"
     },
     "CD437": {
-        "Replicate": "S03_CD437_T18_B",
+        "Replicate": [
+            "S03_CD437_T18_A",
+            "S03_CD437_T18_B"
+        ],
         "Sample": "CD437",
         "Treatment": "CD437",
         "Dose": "200 nM",
@@ -315,7 +455,10 @@
         "KO": "TP53"
     },
     "Illudin": {
-        "Replicate": "S03_Illudin_T18_B",
+        "Replicate": [
+            "S03_Illudin_T18_A",
+            "S03_Illudin_T18_B"
+        ],
         "Sample": "Illudin",
         "Treatment": "Illudin S",
         "Dose": "30 nM",
@@ -324,7 +467,10 @@
         "KO": "TP53"
     },
     "KBrO3": {
-        "Replicate": "S03_KBrO3_T18_B",
+        "Replicate": [
+            "S03_KBrO3_T18_A",
+            "S03_KBrO3_T18_B"
+        ],
         "Sample": "KBrO3",
         "Treatment": "KBrO3",
         "Dose": "500 \u03bcM",
@@ -333,7 +479,10 @@
         "KO": "TP53"
     },
     "MLN": {
-        "Replicate": "S03_MLN_T18_B",
+        "Replicate": [
+            "S03_MLN_T18_A",
+            "S03_MLN_T18_B"
+        ],
         "Sample": "MLN",
         "Treatment": "MLN4924 (Pevonedistat)",
         "Dose": "250 nM",
@@ -342,7 +491,10 @@
         "KO": "TP53"
     },
     "MNNG": {
-        "Replicate": "S03_MNNG_T18_B",
+        "Replicate": [
+            "S03_MNNG_T18_A",
+            "S03_MNNG_T18_B"
+        ],
         "Sample": "MNNG",
         "Treatment": "MNNG",
         "Dose": "100 nM",
@@ -351,7 +503,10 @@
         "KO": "TP53"
     },
     "S03_NT": {
-        "Replicate": "S03_NT_T18_B",
+        "Replicate": [
+            "S03_NT_T18_A",
+            "S03_NT_T18_B"
+        ],
         "Sample": "S03_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -360,7 +515,10 @@
         "KO": "TP53"
     },
     "Cisplatin_3": {
-        "Replicate": "S04_Cisplatin-3_T18_B",
+        "Replicate": [
+            "S04_Cisplatin-3_T18_A",
+            "S04_Cisplatin-3_T18_B"
+        ],
         "Sample": "Cisplatin_3",
         "Treatment": "Cisplatin",
         "Dose": "1.5 \u03bcM",
@@ -369,7 +527,10 @@
         "KO": "TP53"
     },
     "S04_NT": {
-        "Replicate": "S04_NT_T18_B",
+        "Replicate": [
+            "S04_NT_T18_A",
+            "S04_NT_T18_B"
+        ],
         "Sample": "S04_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -378,7 +539,10 @@
         "KO": "TP53"
     },
     "CPT_2": {
-        "Replicate": "S05_CPT-2_T18_B",
+        "Replicate": [
+            "S05_CPT-2_T18_A",
+            "S05_CPT-2_T18_B"
+        ],
         "Sample": "CPT_2",
         "Treatment": "Camptothecin",
         "Dose": "6 nM",
@@ -387,7 +551,10 @@
         "KO": "TP53"
     },
     "S05_NT": {
-        "Replicate": "S05_NT_T18_B",
+        "Replicate": [
+            "S05_NT_T18_A",
+            "S05_NT_T18_B"
+        ],
         "Sample": "S05_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -396,7 +563,10 @@
         "KO": "TP53"
     },
     "Calicheamicin": {
-        "Replicate": "S06_Calicheamicin_T19_B",
+        "Replicate": [
+            "S06_Calicheamicin_T19_A",
+            "S06_Calicheamicin_T19_B"
+        ],
         "Sample": "Calicheamicin",
         "Treatment": "Calicheamicin",
         "Dose": "0.5 nM - 0.05nM",
@@ -405,7 +575,10 @@
         "KO": "TP53"
     },
     "Duocarmycin": {
-        "Replicate": "S06_Duocarmycin_T19_B",
+        "Replicate": [
+            "S06_Duocarmycin_T19_A",
+            "S06_Duocarmycin_T19_B"
+        ],
         "Sample": "Duocarmycin",
         "Treatment": "Duocarmycin",
         "Dose": "1 nM - 0.075 nM",
@@ -414,7 +587,10 @@
         "KO": "TP53"
     },
     "Formaldehyde": {
-        "Replicate": "S06_Formaldehyde_T18_B",
+        "Replicate": [
+            "S06_Formaldehyde_T18_A",
+            "S06_Formaldehyde_T18_B"
+        ],
         "Sample": "Formaldehyde",
         "Treatment": "Formaldehyde",
         "Dose": "63.5 \u03bcM",
@@ -423,7 +599,10 @@
         "KO": "TP53"
     },
     "S06_NT": {
-        "Replicate": "S06_NT_T18_B",
+        "Replicate": [
+            "S06_NT_T18_A",
+            "S06_NT_T18_B"
+        ],
         "Sample": "S06_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -432,7 +611,10 @@
         "KO": "TP53"
     },
     "PhenDC3": {
-        "Replicate": "S06_PhenDC3_T18_B",
+        "Replicate": [
+            "S06_PhenDC3_T18_A",
+            "S06_PhenDC3_T18_B"
+        ],
         "Sample": "PhenDC3",
         "Treatment": "Phen-DC3",
         "Dose": "1 \u03bcM",
@@ -441,7 +623,10 @@
         "KO": "TP53"
     },
     "Trabectedin": {
-        "Replicate": "S06_Trabectedin_T19_B",
+        "Replicate": [
+            "S06_Trabectedin_T19_A",
+            "S06_Trabectedin_T19_B"
+        ],
         "Sample": "Trabectedin",
         "Treatment": "Trabectedin",
         "Dose": "1 nM - 0.075 nM",
@@ -450,7 +635,10 @@
         "KO": "TP53"
     },
     "AZD6738": {
-        "Replicate": "S07_AZD6738_T18_B",
+        "Replicate": [
+            "S07_AZD6738_T18_A",
+            "S07_AZD6738_T18_B"
+        ],
         "Sample": "AZD6738",
         "Treatment": "ATRi (AZD6738)",
         "Dose": "0.5 \u03bcM",
@@ -459,7 +647,10 @@
         "KO": "TP53"
     },
     "S07_NT": {
-        "Replicate": "S07_NT_T18_B",
+        "Replicate": [
+            "S07_NT_T18_A",
+            "S07_NT_T18_B"
+        ],
         "Sample": "S07_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -468,7 +659,10 @@
         "KO": "TP53"
     },
     "BPDE": {
-        "Replicate": "S12_BPDE_T18_B",
+        "Replicate": [
+            "S12_BPDE_T18_A",
+            "S12_BPDE_T18_B"
+        ],
         "Sample": "BPDE",
         "Treatment": "BPDE",
         "Dose": "Missing",
@@ -477,7 +671,10 @@
         "KO": "TP53"
     },
     "HU_acute": {
-        "Replicate": "S12_HU_acute_T18_B",
+        "Replicate": [
+            "S12_HU_acute_T18_A",
+            "S12_HU_acute_T18_B"
+        ],
         "Sample": "HU_acute",
         "Treatment": "Hydroxyurea (acute)",
         "Dose": "100 \u03bcM",
@@ -486,7 +683,10 @@
         "KO": "TP53"
     },
     "S12_NT": {
-        "Replicate": "S12_NT_T18_B",
+        "Replicate": [
+            "S12_NT_T18_A",
+            "S12_NT_T18_B"
+        ],
         "Sample": "S12_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -495,7 +695,10 @@
         "KO": "TP53"
     },
     "PladB": {
-        "Replicate": "S12_PladB_T18_B",
+        "Replicate": [
+            "S12_PladB_T18_A",
+            "S12_PladB_T18_B"
+        ],
         "Sample": "PladB",
         "Treatment": "PladB",
         "Dose": "Missing",
@@ -504,7 +707,10 @@
         "KO": "TP53"
     },
     "BRCA2KO_DMSO": {
-        "Replicate": "BRCA2KO_DMSO_2",
+        "Replicate": [
+            "BRCA2KO_DMSO_1",
+            "BRCA2KO_DMSO_2"
+        ],
         "Sample": "BRCA2KO_DMSO",
         "Treatment": NaN,
         "Dose": NaN,
@@ -513,7 +719,10 @@
         "KO": "BRCA2"
     },
     "BRCA2KO_OLA": {
-        "Replicate": "BRCA2KO_OLA_2",
+        "Replicate": [
+            "BRCA2KO_OLA_1",
+            "BRCA2KO_OLA_2"
+        ],
         "Sample": "BRCA2KO_OLA",
         "Treatment": "Olaparib",
         "Dose": "4\u2009\u03bcM",
@@ -522,7 +731,10 @@
         "KO": "BRCA2"
     },
     "WT_DMSO": {
-        "Replicate": "WT_DMSO_2",
+        "Replicate": [
+            "WT_DMSO_1",
+            "WT_DMSO_2"
+        ],
         "Sample": "WT_DMSO",
         "Treatment": NaN,
         "Dose": NaN,
@@ -531,16 +743,24 @@
         "KO": NaN
     },
     "WT_OLA": {
-        "Replicate": "WT_OLA_c",
+        "Replicate": [
+            "WT_OLA_1",
+            "WT_OLA_2",
+            "WT_OLA_a",
+            "WT_OLA_b",
+            "WT_OLA_c"
+        ],
         "Sample": "WT_OLA",
         "Treatment": "Olaparib",
-        "Dose": "250 nM",
-        "Days grown": 15,
-        "Cell line": "eHAP",
+        "Dose": "5\u2009\u03bcM",
+        "Days grown": 10,
+        "Cell line": "HeLa",
         "KO": NaN
     },
     "WT": {
-        "Replicate": "WT",
+        "Replicate": [
+            "WT"
+        ],
         "Sample": "WT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -549,7 +769,9 @@
         "KO": NaN
     },
     "PARPKO": {
-        "Replicate": "PARPKO",
+        "Replicate": [
+            "PARPKO"
+        ],
         "Sample": "PARPKO",
         "Treatment": NaN,
         "Dose": NaN,
@@ -558,7 +780,11 @@
         "KO": "PARP14"
     },
     "X100_D8": {
-        "Replicate": "X100_D8_3",
+        "Replicate": [
+            "X100_D8_1",
+            "X100_D8_2",
+            "X100_D8_3"
+        ],
         "Sample": "X100_D8",
         "Treatment": "Formaldehyde",
         "Dose": "100 uM",
@@ -567,7 +793,10 @@
         "KO": NaN
     },
     "X150_D8": {
-        "Replicate": "X150_D8_3",
+        "Replicate": [
+            "X150_D8_1",
+            "X150_D8_3"
+        ],
         "Sample": "X150_D8",
         "Treatment": "Formaldehyde",
         "Dose": "150 uM",
@@ -576,7 +805,11 @@
         "KO": NaN
     },
     "X40_D8": {
-        "Replicate": "X40_D8_3",
+        "Replicate": [
+            "X40_D8_1",
+            "X40_D8_2",
+            "X40_D8_3"
+        ],
         "Sample": "X40_D8",
         "Treatment": "Formaldehyde",
         "Dose": "40 uM",
@@ -585,7 +818,11 @@
         "KO": NaN
     },
     "Cont_D8": {
-        "Replicate": "Cont_D8_4",
+        "Replicate": [
+            "Cont_D8_1",
+            "Cont_D8_2",
+            "Cont_D8_4"
+        ],
         "Sample": "Cont_D8",
         "Treatment": NaN,
         "Dose": NaN,
@@ -594,7 +831,11 @@
         "KO": NaN
     },
     "X100_D20": {
-        "Replicate": "X100_D20_3",
+        "Replicate": [
+            "X100_D20_1",
+            "X100_D20_2",
+            "X100_D20_3"
+        ],
         "Sample": "X100_D20",
         "Treatment": "Formaldehyde",
         "Dose": "100 uM",
@@ -603,7 +844,11 @@
         "KO": NaN
     },
     "X150_D20": {
-        "Replicate": "X150_D20_3",
+        "Replicate": [
+            "X150_D20_1",
+            "X150_D20_2",
+            "X150_D20_3"
+        ],
         "Sample": "X150_D20",
         "Treatment": "Formaldehyde",
         "Dose": "150 uM",
@@ -612,7 +857,11 @@
         "KO": NaN
     },
     "X40_D20": {
-        "Replicate": "X40_D20_3",
+        "Replicate": [
+            "X40_D20_1",
+            "X40_D20_2",
+            "X40_D20_3"
+        ],
         "Sample": "X40_D20",
         "Treatment": "Formaldehyde",
         "Dose": "40 uM",
@@ -621,7 +870,11 @@
         "KO": NaN
     },
     "Cont_D20": {
-        "Replicate": "Cont_D20_3",
+        "Replicate": [
+            "Cont_D20_1",
+            "Cont_D20_2",
+            "Cont_D20_3"
+        ],
         "Sample": "Cont_D20",
         "Treatment": NaN,
         "Dose": NaN,
@@ -630,7 +883,11 @@
         "KO": NaN
     },
     "Cont_D20_L3": {
-        "Replicate": "Cont_D20_L3_3",
+        "Replicate": [
+            "Cont_D20_L3_1",
+            "Cont_D20_L3_2",
+            "Cont_D20_L3_3"
+        ],
         "Sample": "Cont_D20_L3",
         "Treatment": NaN,
         "Dose": NaN,
@@ -639,7 +896,11 @@
         "KO": NaN
     },
     "Dib_D20": {
-        "Replicate": "Dib_D20_3",
+        "Replicate": [
+            "Dib_D20_1",
+            "Dib_D20_2",
+            "Dib_D20_3"
+        ],
         "Sample": "Dib_D20",
         "Treatment": NaN,
         "Dose": NaN,
@@ -648,7 +909,11 @@
         "KO": NaN
     },
     "Dib_D8": {
-        "Replicate": "Dib_D8_3",
+        "Replicate": [
+            "Dib_D8_1",
+            "Dib_D8_2",
+            "Dib_D8_3"
+        ],
         "Sample": "Dib_D8",
         "Treatment": NaN,
         "Dose": NaN,
@@ -657,7 +922,11 @@
         "KO": NaN
     },
     "T0puro": {
-        "Replicate": "T0puro_3",
+        "Replicate": [
+            "T0puro_1",
+            "T0puro_2",
+            "T0puro_3"
+        ],
         "Sample": "T0puro",
         "Treatment": NaN,
         "Dose": NaN,
@@ -666,7 +935,10 @@
         "KO": NaN
     },
     "CCNE1_T0": {
-        "Replicate": "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T0",
+        "Replicate": [
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T0",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T0"
+        ],
         "Sample": "CCNE1_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -675,7 +947,12 @@
         "KO": "CCNE1-high|TP53"
     },
     "CCNE1_T15": {
-        "Replicate": "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T15_repB",
+        "Replicate": [
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T15_repA",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T15_repB",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T15_repA",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T15_repB"
+        ],
         "Sample": "CCNE1_T15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -684,7 +961,12 @@
         "KO": "CCNE1-high|TP53"
     },
     "CCNE1_T18": {
-        "Replicate": "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T18_repB",
+        "Replicate": [
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T18_repA",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#2_T18_repB",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T18_repA",
+            "TKOv2_RPE1.hTERT.Cas9.dTP53_CCNE1oe_Clone#21_T18_repB"
+        ],
         "Sample": "CCNE1_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -693,7 +975,9 @@
         "KO": "CCNE1-high|TP53"
     },
     "BRCA2_T0": {
-        "Replicate": "BRCA2_T0",
+        "Replicate": [
+            "BRCA2_T0"
+        ],
         "Sample": "BRCA2_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -702,7 +986,10 @@
         "KO": NaN
     },
     "BRCA2_T21_DMSO": {
-        "Replicate": "BRCA2_T21_DMSO_B",
+        "Replicate": [
+            "BRCA2_T21_DMSO_A",
+            "BRCA2_T21_DMSO_B"
+        ],
         "Sample": "BRCA2_T21_DMSO",
         "Treatment": NaN,
         "Dose": NaN,
@@ -711,7 +998,10 @@
         "KO": NaN
     },
     "BRCA2_T21_IAA": {
-        "Replicate": "BRCA2_T21_IAA_B",
+        "Replicate": [
+            "BRCA2_T21_IAA_A",
+            "BRCA2_T21_IAA_B"
+        ],
         "Sample": "BRCA2_T21_IAA",
         "Treatment": "BRCA2-degradation",
         "Dose": NaN,
@@ -720,7 +1010,9 @@
         "KO": NaN
     },
     "NT1": {
-        "Replicate": "NT1",
+        "Replicate": [
+            "NT1"
+        ],
         "Sample": "NT1",
         "Treatment": NaN,
         "Dose": NaN,
@@ -729,7 +1021,9 @@
         "KO": NaN
     },
     "AZD": {
-        "Replicate": "AZD",
+        "Replicate": [
+            "AZD"
+        ],
         "Sample": "AZD",
         "Treatment": "ATRi (AZD6738)",
         "Dose": "3.6 \u03bcM",
@@ -738,7 +1032,9 @@
         "KO": NaN
     },
     "VE822": {
-        "Replicate": "VE822",
+        "Replicate": [
+            "VE822"
+        ],
         "Sample": "VE822",
         "Treatment": "ATRi (VE822)",
         "Dose": "1.5 \u03bcM",
@@ -747,7 +1043,11 @@
         "KO": NaN
     },
     "MOCK": {
-        "Replicate": "KO_MOCK_D20_R3",
+        "Replicate": [
+            "KO_MOCK_D20_R1",
+            "KO_MOCK_D20_R2",
+            "KO_MOCK_D20_R3"
+        ],
         "Sample": "MOCK",
         "Treatment": NaN,
         "Dose": NaN,
@@ -756,7 +1056,11 @@
         "KO": "MUS81"
     },
     "OLAP": {
-        "Replicate": "KO_MOCK_D7_OLAP_D15_R3",
+        "Replicate": [
+            "KO_MOCK_D7_OLAP_D15_R1",
+            "KO_MOCK_D7_OLAP_D15_R2",
+            "KO_MOCK_D7_OLAP_D15_R3"
+        ],
         "Sample": "OLAP",
         "Treatment": "Olaparib",
         "Dose": "200 nM",
@@ -765,7 +1069,9 @@
         "KO": "MUS81"
     },
     "T00": {
-        "Replicate": "T00",
+        "Replicate": [
+            "T00"
+        ],
         "Sample": "T00",
         "Treatment": NaN,
         "Dose": NaN,
@@ -774,16 +1080,22 @@
         "KO": NaN
     },
     "DMSO": {
-        "Replicate": "DMSO_1",
+        "Replicate": [
+            "DMSO",
+            "DMSO_2",
+            "DMSO_1"
+        ],
         "Sample": "DMSO",
         "Treatment": NaN,
         "Dose": NaN,
-        "Days grown": 14,
-        "Cell line": "A2780",
+        "Days grown": 10,
+        "Cell line": "NCI-H1373",
         "KO": NaN
     },
     "RBN2397_10nM": {
-        "Replicate": "RBN2397_10nM",
+        "Replicate": [
+            "RBN2397_10nM"
+        ],
         "Sample": "RBN2397_10nM",
         "Treatment": "RBN-2397",
         "Dose": "10nM",
@@ -792,7 +1104,9 @@
         "KO": NaN
     },
     "RBN2397_20nM": {
-        "Replicate": "RBN2397_20nM",
+        "Replicate": [
+            "RBN2397_20nM"
+        ],
         "Sample": "RBN2397_20nM",
         "Treatment": "RBN-2397",
         "Dose": "20nM",
@@ -801,7 +1115,10 @@
         "KO": NaN
     },
     "DMSO_D22_WT": {
-        "Replicate": "28_DMSO_D22",
+        "Replicate": [
+            "9_DMSO_D22",
+            "28_DMSO_D22"
+        ],
         "Sample": "DMSO_D22_WT",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -810,7 +1127,10 @@
         "KO": NaN
     },
     "DMSO_D25_WT": {
-        "Replicate": "28_DMSO_D25",
+        "Replicate": [
+            "9_DMSO_D25",
+            "28_DMSO_D25"
+        ],
         "Sample": "DMSO_D25_WT",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -819,7 +1139,10 @@
         "KO": NaN
     },
     "DMSO_D22_TP53": {
-        "Replicate": "c4_DMSO_D22",
+        "Replicate": [
+            "c2_DMSO_D22",
+            "c4_DMSO_D22"
+        ],
         "Sample": "DMSO_D22_TP53",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -828,7 +1151,10 @@
         "KO": "TP53"
     },
     "DMSO_D25_TP53": {
-        "Replicate": "c4_DMSO_D25",
+        "Replicate": [
+            "c2_DMSO_D25",
+            "c4_DMSO_D25"
+        ],
         "Sample": "DMSO_D25_TP53",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -837,7 +1163,10 @@
         "KO": "TP53"
     },
     "DMSO_D22_53BP1_TP53": {
-        "Replicate": "113_DMSO_D22",
+        "Replicate": [
+            "108_DMSO_D22",
+            "113_DMSO_D22"
+        ],
         "Sample": "DMSO_D22_53BP1_TP53",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -846,7 +1175,10 @@
         "KO": "53BP1|TP53"
     },
     "DMSO_D25_53BP1_TP53": {
-        "Replicate": "113_DMSO_D25",
+        "Replicate": [
+            "108_DMSO_D25",
+            "113_DMSO_D25"
+        ],
         "Sample": "DMSO_D25_53BP1_TP53",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -855,7 +1187,10 @@
         "KO": "53BP1|TP53"
     },
     "NT_D3_WT": {
-        "Replicate": "28_D3",
+        "Replicate": [
+            "9_D3",
+            "28_D3"
+        ],
         "Sample": "NT_D3_WT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -864,7 +1199,10 @@
         "KO": NaN
     },
     "NT_D15_WT": {
-        "Replicate": "28_D15",
+        "Replicate": [
+            "9_D15",
+            "28_D15"
+        ],
         "Sample": "NT_D15_WT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -873,7 +1211,10 @@
         "KO": NaN
     },
     "NT_D19_WT": {
-        "Replicate": "28_NT_D19",
+        "Replicate": [
+            "9_NT_D19",
+            "28_NT_D19"
+        ],
         "Sample": "NT_D19_WT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -882,7 +1223,10 @@
         "KO": NaN
     },
     "NT_D3_TP53": {
-        "Replicate": "c4_D3",
+        "Replicate": [
+            "c2_D3",
+            "c4_D3"
+        ],
         "Sample": "NT_D3_TP53",
         "Treatment": NaN,
         "Dose": NaN,
@@ -891,7 +1235,10 @@
         "KO": "TP53"
     },
     "NT_D15_TP53": {
-        "Replicate": "c4_D15",
+        "Replicate": [
+            "c2_D15",
+            "c4_D15"
+        ],
         "Sample": "NT_D15_TP53",
         "Treatment": NaN,
         "Dose": NaN,
@@ -900,7 +1247,10 @@
         "KO": "TP53"
     },
     "NT_D19_TP53": {
-        "Replicate": "c4_NT_D19",
+        "Replicate": [
+            "c2_NT_D19",
+            "c4_NT_D19"
+        ],
         "Sample": "NT_D19_TP53",
         "Treatment": NaN,
         "Dose": NaN,
@@ -909,7 +1259,10 @@
         "KO": "TP53"
     },
     "NT_D3_53BP1_TP53": {
-        "Replicate": "113_D3",
+        "Replicate": [
+            "108_D3",
+            "113_D3"
+        ],
         "Sample": "NT_D3_53BP1_TP53",
         "Treatment": NaN,
         "Dose": NaN,
@@ -918,7 +1271,10 @@
         "KO": "53BP1|TP53"
     },
     "NT_D15_53BP1_TP53": {
-        "Replicate": "113_D15",
+        "Replicate": [
+            "108_D15",
+            "113_D15"
+        ],
         "Sample": "NT_D15_53BP1_TP53",
         "Treatment": NaN,
         "Dose": NaN,
@@ -927,7 +1283,10 @@
         "KO": "53BP1|TP53"
     },
     "NT_D19_53BP1_TP53": {
-        "Replicate": "113_NT_D19",
+        "Replicate": [
+            "108_NT_D19",
+            "113_NT_D19"
+        ],
         "Sample": "NT_D19_53BP1_TP53",
         "Treatment": NaN,
         "Dose": NaN,
@@ -936,16 +1295,23 @@
         "KO": "53BP1|TP53"
     },
     "Plasmid": {
-        "Replicate": "L1",
+        "Replicate": [
+            "pDNA_A",
+            "L2",
+            "L1"
+        ],
         "Sample": "Plasmid",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": NaN,
-        "Cell line": "HEK293",
+        "Cell line": "A375",
         "KO": NaN
     },
     "NT": {
-        "Replicate": "Dropout_B",
+        "Replicate": [
+            "Dropout_A",
+            "Dropout_B"
+        ],
         "Sample": "NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -954,7 +1320,10 @@
         "KO": NaN
     },
     "BCL2L1i": {
-        "Replicate": "A1331852_B",
+        "Replicate": [
+            "A1331852_A",
+            "A1331852_B"
+        ],
         "Sample": "BCL2L1i",
         "Treatment": "BCL2L1i (A-1331852)",
         "Dose": "250\u2009nM",
@@ -963,7 +1332,10 @@
         "KO": NaN
     },
     "MCL1i": {
-        "Replicate": "S63845_B",
+        "Replicate": [
+            "S63845_A",
+            "S63845_B"
+        ],
         "Sample": "MCL1i",
         "Treatment": "MCL1i (S63845)",
         "Dose": "250\u2009nM",
@@ -972,7 +1344,10 @@
         "KO": NaN
     },
     "Talazoparib": {
-        "Replicate": "Talazoparib_B",
+        "Replicate": [
+            "Talazoparib_A",
+            "Talazoparib_B"
+        ],
         "Sample": "Talazoparib",
         "Treatment": "Talazoparib",
         "Dose": "7.81\u2009nM",
@@ -981,7 +1356,10 @@
         "KO": NaN
     },
     "OLA_5": {
-        "Replicate": "Olap_5_2",
+        "Replicate": [
+            "Olap_5_1",
+            "Olap_5_2"
+        ],
         "Sample": "OLA_5",
         "Treatment": "Olaparib",
         "Dose": "5 \u03bcM",
@@ -990,7 +1368,10 @@
         "KO": NaN
     },
     "OLA_10": {
-        "Replicate": "Olap_10_2",
+        "Replicate": [
+            "Olap_10_1",
+            "Olap_10_2"
+        ],
         "Sample": "OLA_10",
         "Treatment": "Olaparib",
         "Dose": "10 \u03bcM",
@@ -999,7 +1380,10 @@
         "KO": NaN
     },
     "apex2_ko": {
-        "Replicate": "S1_APE2_NT_T18B",
+        "Replicate": [
+            "S1_APE2_NT_T18A",
+            "S1_APE2_NT_T18B"
+        ],
         "Sample": "apex2_ko",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1008,7 +1392,14 @@
         "KO": "APEX2"
     },
     "init": {
-        "Replicate": "S2_WT_T0",
+        "Replicate": [
+            "S1_APE2_T0",
+            "S1_WT_T0",
+            "S2_A3B_T0",
+            "S2_APEX1_T0",
+            "S2_TDP1_T0",
+            "S2_WT_T0"
+        ],
         "Sample": "init",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1017,7 +1408,12 @@
         "KO": NaN
     },
     "wt": {
-        "Replicate": "S2_WT_T18B",
+        "Replicate": [
+            "S1_WT_NT_T18A",
+            "S1_WT_NT_T18B",
+            "S2_WT_T18A",
+            "S2_WT_T18B"
+        ],
         "Sample": "wt",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1026,7 +1422,10 @@
         "KO": NaN
     },
     "a3b_ko": {
-        "Replicate": "S2_A3B_T18B",
+        "Replicate": [
+            "S2_A3B_T18A",
+            "S2_A3B_T18B"
+        ],
         "Sample": "a3b_ko",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1035,7 +1434,10 @@
         "KO": "A3B? (unpublished)"
     },
     "apex1_ko": {
-        "Replicate": "S2_APEX1_T18B",
+        "Replicate": [
+            "S2_APEX1_T18A",
+            "S2_APEX1_T18B"
+        ],
         "Sample": "apex1_ko",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1044,7 +1446,10 @@
         "KO": "APEX1"
     },
     "tdp1_ko": {
-        "Replicate": "S2_TDPI_T18B",
+        "Replicate": [
+            "S2_TDP1_T18A",
+            "S2_TDPI_T18B"
+        ],
         "Sample": "tdp1_ko",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1053,7 +1458,9 @@
         "KO": "TDP1"
     },
     "T0_T0": {
-        "Replicate": "T0_T0",
+        "Replicate": [
+            "T0_T0"
+        ],
         "Sample": "T0_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1062,7 +1469,9 @@
         "KO": NaN
     },
     "NT_T16": {
-        "Replicate": "NT_T16",
+        "Replicate": [
+            "NT_T16"
+        ],
         "Sample": "NT_T16",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1071,7 +1480,9 @@
         "KO": NaN
     },
     "CDC7i_T16": {
-        "Replicate": "CDC7i_T16",
+        "Replicate": [
+            "CDC7i_T16"
+        ],
         "Sample": "CDC7i_T16",
         "Treatment": "CDC7i (XL413)",
         "Dose": "20\u00a0\u03bcM",
@@ -1080,7 +1491,9 @@
         "KO": NaN
     },
     "p53_T0": {
-        "Replicate": "RPE1_WT_Day0",
+        "Replicate": [
+            "RPE1_WT_Day0"
+        ],
         "Sample": "p53_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1089,7 +1502,11 @@
         "KO": NaN
     },
     "p53_T18": {
-        "Replicate": "RPE1_WT_Day18C",
+        "Replicate": [
+            "RPE1_WT_Day18A",
+            "RPE1_WT_Day18B",
+            "RPE1_WT_Day18C"
+        ],
         "Sample": "p53_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1098,7 +1515,9 @@
         "KO": NaN
     },
     "p53_BRCA_T0": {
-        "Replicate": "RPE1_dBRCA1_Day0",
+        "Replicate": [
+            "RPE1_dBRCA1_Day0"
+        ],
         "Sample": "p53_BRCA_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1107,7 +1526,11 @@
         "KO": "BRCA1"
     },
     "p53_BRCA_T21": {
-        "Replicate": "RPE1_dBRCA1_Day21C",
+        "Replicate": [
+            "RPE1_dBRCA1_Day21A",
+            "RPE1_dBRCA1_Day21B",
+            "RPE1_dBRCA1_Day21C"
+        ],
         "Sample": "p53_BRCA_T21",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1116,7 +1539,11 @@
         "KO": "BRCA1"
     },
     "WT_T21": {
-        "Replicate": "T21C_WT",
+        "Replicate": [
+            "T21A_WT",
+            "T21B_WT",
+            "T21C_WT"
+        ],
         "Sample": "WT_T21",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1125,7 +1552,9 @@
         "KO": NaN
     },
     "HMCES_T0": {
-        "Replicate": "T0_HMCES",
+        "Replicate": [
+            "T0_HMCES"
+        ],
         "Sample": "HMCES_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1134,7 +1563,11 @@
         "KO": NaN
     },
     "HMCES_T24": {
-        "Replicate": "T24C_HMCES",
+        "Replicate": [
+            "T24A_HMCES",
+            "T24B_HMCES",
+            "T24C_HMCES"
+        ],
         "Sample": "HMCES_T24",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1143,7 +1576,9 @@
         "KO": "HMCES"
     },
     "DMSO_D12": {
-        "Replicate": "DMSO_D12",
+        "Replicate": [
+            "DMSO_D12"
+        ],
         "Sample": "DMSO_D12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1152,7 +1587,9 @@
         "KO": NaN
     },
     "DMSO_D6": {
-        "Replicate": "DMSO_D6",
+        "Replicate": [
+            "DMSO_D6"
+        ],
         "Sample": "DMSO_D6",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1161,7 +1598,9 @@
         "KO": NaN
     },
     "D0_D0": {
-        "Replicate": "D0_D0",
+        "Replicate": [
+            "D0_D0"
+        ],
         "Sample": "D0_D0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1170,7 +1609,9 @@
         "KO": NaN
     },
     "Resveratrol_D12": {
-        "Replicate": "Resveratrol_D12",
+        "Replicate": [
+            "Resveratrol_D12"
+        ],
         "Sample": "Resveratrol_D12",
         "Treatment": "Resveratrol",
         "Dose": "25\u2009\u03bcM",
@@ -1179,7 +1620,9 @@
         "KO": NaN
     },
     "293A_WT_T0_XF498": {
-        "Replicate": "293A_WT_T0_XF498",
+        "Replicate": [
+            "293A_WT_T0_XF498"
+        ],
         "Sample": "293A_WT_T0_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1188,7 +1631,10 @@
         "KO": NaN
     },
     "293A_WT_T22_XF498": {
-        "Replicate": "293A_WT_T22-B_XF498",
+        "Replicate": [
+            "293A_WT_T22-A_XF498",
+            "293A_WT_T22-B_XF498"
+        ],
         "Sample": "293A_WT_T22_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1197,7 +1643,9 @@
         "KO": NaN
     },
     "293A_LKB1_T0_XF498": {
-        "Replicate": "293A_LKB1_T0_XF498",
+        "Replicate": [
+            "293A_LKB1_T0_XF498"
+        ],
         "Sample": "293A_LKB1_T0_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1206,7 +1654,10 @@
         "KO": "LKB1"
     },
     "293A_LKB1_T22_XF498": {
-        "Replicate": "293A_LKB1_T22-B_XF498",
+        "Replicate": [
+            "293A_LKB1_T22-A_XF498",
+            "293A_LKB1_T22-B_XF498"
+        ],
         "Sample": "293A_LKB1_T22_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1215,7 +1666,9 @@
         "KO": "LKB1"
     },
     "293A_PTEN_T0_XF498": {
-        "Replicate": "293A_PTEN_T0_XF498",
+        "Replicate": [
+            "293A_PTEN_T0_XF498"
+        ],
         "Sample": "293A_PTEN_T0_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1224,7 +1677,10 @@
         "KO": "PTEN"
     },
     "293A_PTEN_T22_XF498": {
-        "Replicate": "293A_PTEN_T22-B_XF498",
+        "Replicate": [
+            "293A_PTEN_T22-A_XF498",
+            "293A_PTEN_T22-B_XF498"
+        ],
         "Sample": "293A_PTEN_T22_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1233,7 +1689,9 @@
         "KO": "PTEN"
     },
     "293A_VHL_T0_XF498": {
-        "Replicate": "293A_VHL_T0_XF498",
+        "Replicate": [
+            "293A_VHL_T0_XF498"
+        ],
         "Sample": "293A_VHL_T0_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1242,7 +1700,10 @@
         "KO": "VHL"
     },
     "293A_VHL_T22_XF498": {
-        "Replicate": "293A_VHL_T22-B_XF498",
+        "Replicate": [
+            "293A_VHL_T22-A_XF498",
+            "293A_VHL_T22-B_XF498"
+        ],
         "Sample": "293A_VHL_T22_XF498",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1251,7 +1712,9 @@
         "KO": "VHL"
     },
     "293A_WT_T0_XF_646": {
-        "Replicate": "293A_WT_T0_XF_646",
+        "Replicate": [
+            "293A_WT_T0_XF_646"
+        ],
         "Sample": "293A_WT_T0_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1260,7 +1723,10 @@
         "KO": "VHL"
     },
     "293A_WT_T21_XF_646": {
-        "Replicate": "293A_WT_T21_B_XF_646",
+        "Replicate": [
+            "293A_WT_T21_A_XF_646",
+            "293A_WT_T21_B_XF_646"
+        ],
         "Sample": "293A_WT_T21_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1269,7 +1735,9 @@
         "KO": NaN
     },
     "293A_CDH1_T0": {
-        "Replicate": "293A_CDH1_T0",
+        "Replicate": [
+            "293A_CDH1_T0"
+        ],
         "Sample": "293A_CDH1_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1278,7 +1746,10 @@
         "KO": "CDH1"
     },
     "293A_CDH1_T24_XF_646": {
-        "Replicate": "293A_CDH1_T24_B_XF_646",
+        "Replicate": [
+            "293A_CDH1_T24_A_XF_646",
+            "293A_CDH1_T24_B_XF_646"
+        ],
         "Sample": "293A_CDH1_T24_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1287,7 +1758,9 @@
         "KO": "CDH1"
     },
     "293A_NF2_T0_XF_646": {
-        "Replicate": "293A_NF2_T0_XF_646",
+        "Replicate": [
+            "293A_NF2_T0_XF_646"
+        ],
         "Sample": "293A_NF2_T0_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1296,7 +1769,10 @@
         "KO": "NF2"
     },
     "293A_NF2_T24_XF_646": {
-        "Replicate": "293A_NF2_T24_B_XF_646",
+        "Replicate": [
+            "293A_NF2_T24_A_XF_646",
+            "293A_NF2_T24_B_XF_646"
+        ],
         "Sample": "293A_NF2_T24_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1305,7 +1781,9 @@
         "KO": "NF2"
     },
     "293A_BAP1_16_T0_XF_646": {
-        "Replicate": "293A_BAP1_16_T0_XF_646",
+        "Replicate": [
+            "293A_BAP1_16_T0_XF_646"
+        ],
         "Sample": "293A_BAP1_16_T0_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1314,7 +1792,10 @@
         "KO": "BAP1"
     },
     "293A_BAP1_T25_XF_646": {
-        "Replicate": "293A_BAP1_T25_B_XF_646",
+        "Replicate": [
+            "293A_BAP1_T25_A_XF_646",
+            "293A_BAP1_T25_B_XF_646"
+        ],
         "Sample": "293A_BAP1_T25_XF_646",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1323,7 +1804,9 @@
         "KO": "BAP1"
     },
     "293A_WT_T0_XF_804": {
-        "Replicate": "293A_WT_T0_XF_804",
+        "Replicate": [
+            "293A_WT_T0_XF_804"
+        ],
         "Sample": "293A_WT_T0_XF_804",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1332,7 +1815,10 @@
         "KO": "BAP1"
     },
     "293A_WT_T20_XF_804": {
-        "Replicate": "293A_WT_T20_B_XF_804",
+        "Replicate": [
+            "293A_WT_T20_A_XF_804",
+            "293A_WT_T20_B_XF_804"
+        ],
         "Sample": "293A_WT_T20_XF_804",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1341,7 +1827,9 @@
         "KO": NaN
     },
     "293A_ARID1A_T0_XF_804": {
-        "Replicate": "293A_ARID1A_T0_XF_804",
+        "Replicate": [
+            "293A_ARID1A_T0_XF_804"
+        ],
         "Sample": "293A_ARID1A_T0_XF_804",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1350,7 +1838,10 @@
         "KO": "ARID1A"
     },
     "293A_ARID1A_T21_XF_804": {
-        "Replicate": "293A_ARID1A_T21_B_XF_804",
+        "Replicate": [
+            "293A_ARID1A_T21_A_XF_804",
+            "293A_ARID1A_T21_B_XF_804"
+        ],
         "Sample": "293A_ARID1A_T21_XF_804",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1359,7 +1850,9 @@
         "KO": "ARID1A"
     },
     "293A_PBRM1_T0_XF_804": {
-        "Replicate": "293A_PBRM1_T0_XF_804",
+        "Replicate": [
+            "293A_PBRM1_T0_XF_804"
+        ],
         "Sample": "293A_PBRM1_T0_XF_804",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1368,7 +1861,10 @@
         "KO": "PBRM1"
     },
     "293A_PBRM1_T25_XF_804": {
-        "Replicate": "293A_PBRM1_T25_B_XF_804",
+        "Replicate": [
+            "293A_PBRM1_T25_A_XF_804",
+            "293A_PBRM1_T25_B_XF_804"
+        ],
         "Sample": "293A_PBRM1_T25_XF_804",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1377,7 +1873,9 @@
         "KO": "PBRM1"
     },
     "293A_WT_T0_XF_821": {
-        "Replicate": "293A_WT_T0_XF_821",
+        "Replicate": [
+            "293A_WT_T0_XF_821"
+        ],
         "Sample": "293A_WT_T0_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1386,7 +1884,10 @@
         "KO": NaN
     },
     "293A_WT_T21_XF_821": {
-        "Replicate": "293A_WT_T21_B_XF_821",
+        "Replicate": [
+            "293A_WT_T21_A_XF_821",
+            "293A_WT_T21_B_XF_821"
+        ],
         "Sample": "293A_WT_T21_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1395,7 +1896,9 @@
         "KO": NaN
     },
     "293A_KEAP1_T0_XF_821": {
-        "Replicate": "293A_KEAP1_T0_XF_821",
+        "Replicate": [
+            "293A_KEAP1_T0_XF_821"
+        ],
         "Sample": "293A_KEAP1_T0_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1404,7 +1907,10 @@
         "KO": "KEAP1"
     },
     "293A_KEAP1_T22_XF_821": {
-        "Replicate": "293A_KEAP1_T22_B_XF_821",
+        "Replicate": [
+            "293A_KEAP1_T22_A_XF_821",
+            "293A_KEAP1_T22_B_XF_821"
+        ],
         "Sample": "293A_KEAP1_T22_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1413,7 +1919,9 @@
         "KO": "KEAP1"
     },
     "293A_NF1_T0_XF_821": {
-        "Replicate": "293A_NF1_T0_XF_821",
+        "Replicate": [
+            "293A_NF1_T0_XF_821"
+        ],
         "Sample": "293A_NF1_T0_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1422,7 +1930,10 @@
         "KO": "NF1"
     },
     "293A_NF1_T24_XF_821": {
-        "Replicate": "293A_NF1_T24_B_XF_821",
+        "Replicate": [
+            "293A_NF1_T24_A_XF_821",
+            "293A_NF1_T24_B_XF_821"
+        ],
         "Sample": "293A_NF1_T24_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1431,7 +1942,9 @@
         "KO": "NF1"
     },
     "293A_RB1_T0_XF_821": {
-        "Replicate": "293A_RB1_T0_XF_821",
+        "Replicate": [
+            "293A_RB1_T0_XF_821"
+        ],
         "Sample": "293A_RB1_T0_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1440,7 +1953,10 @@
         "KO": "RB1"
     },
     "293A_RB1_T21_XF_821": {
-        "Replicate": "293A_RB1_T21_B_XF_821",
+        "Replicate": [
+            "293A_RB1_T21_A_XF_821",
+            "293A_RB1_T21_B_XF_821"
+        ],
         "Sample": "293A_RB1_T21_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1449,7 +1965,9 @@
         "KO": "RB1"
     },
     "293A_TP53_T0_XF_821": {
-        "Replicate": "293A_TP53_T0_XF_821",
+        "Replicate": [
+            "293A_TP53_T0_XF_821"
+        ],
         "Sample": "293A_TP53_T0_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1458,7 +1976,10 @@
         "KO": "TP53"
     },
     "293A_TP53_T21_XF_821": {
-        "Replicate": "293A_TP53_T21_B_XF_821",
+        "Replicate": [
+            "293A_TP53_T21_A_XF_821",
+            "293A_TP53_T21_B_XF_821"
+        ],
         "Sample": "293A_TP53_T21_XF_821",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1467,7 +1988,9 @@
         "KO": "TP53"
     },
     "293A_TP53BP1_T0_XF_443": {
-        "Replicate": "293A_TP53BP1_T0_XF_443",
+        "Replicate": [
+            "293A_TP53BP1_T0_XF_443"
+        ],
         "Sample": "293A_TP53BP1_T0_XF_443",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1476,7 +1999,10 @@
         "KO": "TP53BP1"
     },
     "293A_TP53BP1_T22_XF_443": {
-        "Replicate": "293A_TP53BP1_T22-B_XF_443",
+        "Replicate": [
+            "293A_TP53BP1_T22-A_XF_443",
+            "293A_TP53BP1_T22-B_XF_443"
+        ],
         "Sample": "293A_TP53BP1_T22_XF_443",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1485,7 +2011,9 @@
         "KO": "TP53BP1"
     },
     "p53KO_A3A_t0": {
-        "Replicate": "1A_p53KO_A3A_t0",
+        "Replicate": [
+            "1A_p53KO_A3A_t0"
+        ],
         "Sample": "p53KO_A3A_t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1494,7 +2022,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_woDOX_t3": {
-        "Replicate": "2A_p53KO_A3A_woDOX_t3",
+        "Replicate": [
+            "2A_p53KO_A3A_woDOX_t3"
+        ],
         "Sample": "p53KO_A3A_woDOX_t3",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1503,7 +2033,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_woDOX_t6": {
-        "Replicate": "3A_p53KO_A3A_woDOX_t6",
+        "Replicate": [
+            "3A_p53KO_A3A_woDOX_t6"
+        ],
         "Sample": "p53KO_A3A_woDOX_t6",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1512,7 +2044,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_woDOX_t9": {
-        "Replicate": "4A_p53KO_A3A_woDOX_t9",
+        "Replicate": [
+            "4A_p53KO_A3A_woDOX_t9"
+        ],
         "Sample": "p53KO_A3A_woDOX_t9",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1521,7 +2055,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_woDOX_t12": {
-        "Replicate": "5A_p53KO_A3A_woDOX_t12",
+        "Replicate": [
+            "5A_p53KO_A3A_woDOX_t12"
+        ],
         "Sample": "p53KO_A3A_woDOX_t12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1530,7 +2066,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_woDOX_t15": {
-        "Replicate": "6A_p53KO_A3A_woDOX_t15",
+        "Replicate": [
+            "6A_p53KO_A3A_woDOX_t15"
+        ],
         "Sample": "p53KO_A3A_woDOX_t15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1539,7 +2077,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_DOX_t3": {
-        "Replicate": "7A_p53KO_A3A_DOX_t3",
+        "Replicate": [
+            "7A_p53KO_A3A_DOX_t3"
+        ],
         "Sample": "p53KO_A3A_DOX_t3",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1548,7 +2088,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_DOX_t6": {
-        "Replicate": "8A_p53KO_A3A_DOX_t6",
+        "Replicate": [
+            "8A_p53KO_A3A_DOX_t6"
+        ],
         "Sample": "p53KO_A3A_DOX_t6",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1557,7 +2099,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_DOX_t9": {
-        "Replicate": "9A_p53KO_A3A_DOX_t9",
+        "Replicate": [
+            "9A_p53KO_A3A_DOX_t9"
+        ],
         "Sample": "p53KO_A3A_DOX_t9",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1566,7 +2110,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_DOX_t12": {
-        "Replicate": "10A_p53KO_A3A_DOX_t12",
+        "Replicate": [
+            "10A_p53KO_A3A_DOX_t12"
+        ],
         "Sample": "p53KO_A3A_DOX_t12",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1575,7 +2121,9 @@
         "KO": "TP53"
     },
     "p53KO_A3A_DOX_t15": {
-        "Replicate": "11A_p53KO_A3A_DOX_t15",
+        "Replicate": [
+            "11A_p53KO_A3A_DOX_t15"
+        ],
         "Sample": "p53KO_A3A_DOX_t15",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1584,7 +2132,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_t0": {
-        "Replicate": "17A_p53KO_wt_t0",
+        "Replicate": [
+            "17A_p53KO_wt_t0"
+        ],
         "Sample": "p53KO_wt_t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1593,7 +2143,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_woDOX_t3": {
-        "Replicate": "18A_p53KO_wt_woDOX_t3",
+        "Replicate": [
+            "18A_p53KO_wt_woDOX_t3"
+        ],
         "Sample": "p53KO_wt_woDOX_t3",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1602,7 +2154,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_woDOX_t6": {
-        "Replicate": "19A_p53KO_wt_woDOX_t6",
+        "Replicate": [
+            "19A_p53KO_wt_woDOX_t6"
+        ],
         "Sample": "p53KO_wt_woDOX_t6",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1611,7 +2165,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_woDOX_t9": {
-        "Replicate": "20A_p53KO_wt_woDOX_t9",
+        "Replicate": [
+            "20A_p53KO_wt_woDOX_t9"
+        ],
         "Sample": "p53KO_wt_woDOX_t9",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1620,7 +2176,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_woDOX_t12": {
-        "Replicate": "21A_p53KO_wt_woDOX_t12",
+        "Replicate": [
+            "21A_p53KO_wt_woDOX_t12"
+        ],
         "Sample": "p53KO_wt_woDOX_t12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1629,7 +2187,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_woDOX_t15": {
-        "Replicate": "22A_p53KO_wt_woDOX_t15",
+        "Replicate": [
+            "22A_p53KO_wt_woDOX_t15"
+        ],
         "Sample": "p53KO_wt_woDOX_t15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1638,7 +2198,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_DOX_t3": {
-        "Replicate": "23A_p53KO_wt_DOX_t3",
+        "Replicate": [
+            "23A_p53KO_wt_DOX_t3"
+        ],
         "Sample": "p53KO_wt_DOX_t3",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1647,7 +2209,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_DOX_t6": {
-        "Replicate": "24A_p53KO_wt_DOX_t6",
+        "Replicate": [
+            "24A_p53KO_wt_DOX_t6"
+        ],
         "Sample": "p53KO_wt_DOX_t6",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1656,7 +2220,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_DOX_t9": {
-        "Replicate": "25A_p53KO_wt_DOX_t9",
+        "Replicate": [
+            "25A_p53KO_wt_DOX_t9"
+        ],
         "Sample": "p53KO_wt_DOX_t9",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1665,7 +2231,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_DOX_t12": {
-        "Replicate": "26A_p53KO_wt_DOX_t12",
+        "Replicate": [
+            "26A_p53KO_wt_DOX_t12"
+        ],
         "Sample": "p53KO_wt_DOX_t12",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1674,7 +2242,9 @@
         "KO": "TP53"
     },
     "p53KO_wt_DOX_t15": {
-        "Replicate": "27A_p53KO_wt_DOX_t15",
+        "Replicate": [
+            "27A_p53KO_wt_DOX_t15"
+        ],
         "Sample": "p53KO_wt_DOX_t15",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1683,7 +2253,9 @@
         "KO": "TP53"
     },
     "p53wt_A3A_t0": {
-        "Replicate": "33A_p53wt_A3A_t0",
+        "Replicate": [
+            "33A_p53wt_A3A_t0"
+        ],
         "Sample": "p53wt_A3A_t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1692,7 +2264,9 @@
         "KO": NaN
     },
     "p53wt_A3A_woDOX_t3": {
-        "Replicate": "34A_p53wt_A3A_woDOX_t3",
+        "Replicate": [
+            "34A_p53wt_A3A_woDOX_t3"
+        ],
         "Sample": "p53wt_A3A_woDOX_t3",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1701,7 +2275,9 @@
         "KO": NaN
     },
     "p53wt_A3A_woDOX_t6": {
-        "Replicate": "35A_p53wt_A3A_woDOX_t6",
+        "Replicate": [
+            "35A_p53wt_A3A_woDOX_t6"
+        ],
         "Sample": "p53wt_A3A_woDOX_t6",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1710,7 +2286,9 @@
         "KO": NaN
     },
     "p53wt_A3A_woDOX_t9": {
-        "Replicate": "36A_p53wt_A3A_woDOX_t9",
+        "Replicate": [
+            "36A_p53wt_A3A_woDOX_t9"
+        ],
         "Sample": "p53wt_A3A_woDOX_t9",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1719,7 +2297,9 @@
         "KO": NaN
     },
     "p53wt_A3A_woDOX_t12": {
-        "Replicate": "37A_p53wt_A3A_woDOX_t12",
+        "Replicate": [
+            "37A_p53wt_A3A_woDOX_t12"
+        ],
         "Sample": "p53wt_A3A_woDOX_t12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1728,7 +2308,9 @@
         "KO": NaN
     },
     "p53wt_A3A_woDOX_t15": {
-        "Replicate": "38A_p53wt_A3A_woDOX_t15",
+        "Replicate": [
+            "38A_p53wt_A3A_woDOX_t15"
+        ],
         "Sample": "p53wt_A3A_woDOX_t15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1737,7 +2319,9 @@
         "KO": NaN
     },
     "p53wt_A3A_DOX_t3": {
-        "Replicate": "39A_p53wt_A3A_DOX_t3",
+        "Replicate": [
+            "39A_p53wt_A3A_DOX_t3"
+        ],
         "Sample": "p53wt_A3A_DOX_t3",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1746,7 +2330,9 @@
         "KO": NaN
     },
     "p53wt_A3A_DOX_t6": {
-        "Replicate": "40A_p53wt_A3A_DOX_t6",
+        "Replicate": [
+            "40A_p53wt_A3A_DOX_t6"
+        ],
         "Sample": "p53wt_A3A_DOX_t6",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1755,7 +2341,9 @@
         "KO": NaN
     },
     "p53wt_A3A_DOX_t9": {
-        "Replicate": "41A_p53wt_A3A_DOX_t9",
+        "Replicate": [
+            "41A_p53wt_A3A_DOX_t9"
+        ],
         "Sample": "p53wt_A3A_DOX_t9",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1764,7 +2352,9 @@
         "KO": NaN
     },
     "p53wt_A3A_DOX_t12": {
-        "Replicate": "42A_p53wt_A3A_DOX_t12",
+        "Replicate": [
+            "42A_p53wt_A3A_DOX_t12"
+        ],
         "Sample": "p53wt_A3A_DOX_t12",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1773,7 +2363,9 @@
         "KO": NaN
     },
     "p53wt_A3A_DOX_t15": {
-        "Replicate": "43A_p53wt_A3A_DOX_t15",
+        "Replicate": [
+            "43A_p53wt_A3A_DOX_t15"
+        ],
         "Sample": "p53wt_A3A_DOX_t15",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1782,7 +2374,9 @@
         "KO": NaN
     },
     "p53wt_wt_t0": {
-        "Replicate": "49A_p53wt_wt_t0",
+        "Replicate": [
+            "49A_p53wt_wt_t0"
+        ],
         "Sample": "p53wt_wt_t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1791,7 +2385,9 @@
         "KO": NaN
     },
     "p53wt_wt_woDOX_t3": {
-        "Replicate": "50A_p53wt_wt_woDOX_t3",
+        "Replicate": [
+            "50A_p53wt_wt_woDOX_t3"
+        ],
         "Sample": "p53wt_wt_woDOX_t3",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1800,7 +2396,9 @@
         "KO": NaN
     },
     "p53wt_wt_woDOX_t6": {
-        "Replicate": "51A_p53wt_wt_woDOX_t6",
+        "Replicate": [
+            "51A_p53wt_wt_woDOX_t6"
+        ],
         "Sample": "p53wt_wt_woDOX_t6",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1809,7 +2407,9 @@
         "KO": NaN
     },
     "p53wt_wt_woDOX_t9": {
-        "Replicate": "52A_p53wt_wt_woDOX_t9",
+        "Replicate": [
+            "52A_p53wt_wt_woDOX_t9"
+        ],
         "Sample": "p53wt_wt_woDOX_t9",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1818,7 +2418,9 @@
         "KO": NaN
     },
     "p53wt_wt_woDOX_t12": {
-        "Replicate": "53A_p53wt_wt_woDOX_t12",
+        "Replicate": [
+            "53A_p53wt_wt_woDOX_t12"
+        ],
         "Sample": "p53wt_wt_woDOX_t12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1827,7 +2429,9 @@
         "KO": NaN
     },
     "p53wt_wt_woDOX_t15": {
-        "Replicate": "54A_p53wt_wt_woDOX_t15",
+        "Replicate": [
+            "54A_p53wt_wt_woDOX_t15"
+        ],
         "Sample": "p53wt_wt_woDOX_t15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1836,7 +2440,9 @@
         "KO": NaN
     },
     "p53wt_wt_DOX_t3": {
-        "Replicate": "55A_p53wt_wt_DOX_t3",
+        "Replicate": [
+            "55A_p53wt_wt_DOX_t3"
+        ],
         "Sample": "p53wt_wt_DOX_t3",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1845,7 +2451,9 @@
         "KO": NaN
     },
     "p53wt_wt_DOX_t6": {
-        "Replicate": "56A_p53wt_wt_DOX_t6",
+        "Replicate": [
+            "56A_p53wt_wt_DOX_t6"
+        ],
         "Sample": "p53wt_wt_DOX_t6",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1854,7 +2462,9 @@
         "KO": NaN
     },
     "p53wt_wt_DOX_t9": {
-        "Replicate": "57A_p53wt_wt_DOX_t9",
+        "Replicate": [
+            "57A_p53wt_wt_DOX_t9"
+        ],
         "Sample": "p53wt_wt_DOX_t9",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1863,7 +2473,9 @@
         "KO": NaN
     },
     "p53wt_wt_DOX_t12": {
-        "Replicate": "58A_p53wt_wt_DOX_t12",
+        "Replicate": [
+            "58A_p53wt_wt_DOX_t12"
+        ],
         "Sample": "p53wt_wt_DOX_t12",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1872,7 +2484,9 @@
         "KO": NaN
     },
     "p53wt_wt_DOX_t15": {
-        "Replicate": "59A_p53wt_wt_DOX_t15",
+        "Replicate": [
+            "59A_p53wt_wt_DOX_t15"
+        ],
         "Sample": "p53wt_wt_DOX_t15",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1881,7 +2495,9 @@
         "KO": NaN
     },
     "A3A_t0": {
-        "Replicate": "1L_A3A_t0",
+        "Replicate": [
+            "1L_A3A_t0"
+        ],
         "Sample": "A3A_t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1890,7 +2506,9 @@
         "KO": NaN
     },
     "A3A_woDOX_t5": {
-        "Replicate": "2L_A3A_woDOX_t5",
+        "Replicate": [
+            "2L_A3A_woDOX_t5"
+        ],
         "Sample": "A3A_woDOX_t5",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1899,7 +2517,9 @@
         "KO": NaN
     },
     "A3A_DOX_IC25_t5": {
-        "Replicate": "3L_A3A_DOX_IC25_t5",
+        "Replicate": [
+            "3L_A3A_DOX_IC25_t5"
+        ],
         "Sample": "A3A_DOX_IC25_t5",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1908,7 +2528,9 @@
         "KO": NaN
     },
     "A3A_DOX_IC50_t5": {
-        "Replicate": "4L_A3A_DOX_IC50_t5",
+        "Replicate": [
+            "4L_A3A_DOX_IC50_t5"
+        ],
         "Sample": "A3A_DOX_IC50_t5",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC50",
@@ -1917,7 +2539,9 @@
         "KO": NaN
     },
     "A3A_woDOX_t10": {
-        "Replicate": "5L_A3A_woDOX_t10",
+        "Replicate": [
+            "5L_A3A_woDOX_t10"
+        ],
         "Sample": "A3A_woDOX_t10",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1926,7 +2550,9 @@
         "KO": NaN
     },
     "A3A_DOX_IC25_t10": {
-        "Replicate": "6L_A3A_DOX_IC25_t10",
+        "Replicate": [
+            "6L_A3A_DOX_IC25_t10"
+        ],
         "Sample": "A3A_DOX_IC25_t10",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1935,7 +2561,9 @@
         "KO": NaN
     },
     "A3A_DOX_IC50_t10": {
-        "Replicate": "7L_A3A_DOX_IC50_t10",
+        "Replicate": [
+            "7L_A3A_DOX_IC50_t10"
+        ],
         "Sample": "A3A_DOX_IC50_t10",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC50",
@@ -1944,7 +2572,9 @@
         "KO": NaN
     },
     "A3A_woDOX_t15": {
-        "Replicate": "8L_A3A_woDOX_t15",
+        "Replicate": [
+            "8L_A3A_woDOX_t15"
+        ],
         "Sample": "A3A_woDOX_t15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1953,7 +2583,9 @@
         "KO": NaN
     },
     "A3A_DOX_IC25_t15": {
-        "Replicate": "9L_A3A_DOX_IC25_t15",
+        "Replicate": [
+            "9L_A3A_DOX_IC25_t15"
+        ],
         "Sample": "A3A_DOX_IC25_t15",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -1962,7 +2594,9 @@
         "KO": NaN
     },
     "A3A_DOX_IC50_t15": {
-        "Replicate": "10L_A3A_DOX_IC50_t15",
+        "Replicate": [
+            "10L_A3A_DOX_IC50_t15"
+        ],
         "Sample": "A3A_DOX_IC50_t15",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC50",
@@ -1971,7 +2605,9 @@
         "KO": NaN
     },
     "t0": {
-        "Replicate": "12L_t0",
+        "Replicate": [
+            "12L_t0"
+        ],
         "Sample": "t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1980,7 +2616,9 @@
         "KO": NaN
     },
     "woDOX_t5": {
-        "Replicate": "13L_woDOX_t5",
+        "Replicate": [
+            "13L_woDOX_t5"
+        ],
         "Sample": "woDOX_t5",
         "Treatment": NaN,
         "Dose": NaN,
@@ -1989,7 +2627,9 @@
         "KO": NaN
     },
     "DOX_IC25_t5": {
-        "Replicate": "14L_DOX_IC25_t5",
+        "Replicate": [
+            "14L_DOX_IC25_t5"
+        ],
         "Sample": "DOX_IC25_t5",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -1998,7 +2638,9 @@
         "KO": NaN
     },
     "DOX_IC50_t5": {
-        "Replicate": "15L_DOX_IC50_t5",
+        "Replicate": [
+            "15L_DOX_IC50_t5"
+        ],
         "Sample": "DOX_IC50_t5",
         "Treatment": "DOX",
         "Dose": "IC50",
@@ -2007,7 +2649,9 @@
         "KO": NaN
     },
     "woDOX_t10": {
-        "Replicate": "16L_woDOX_t10",
+        "Replicate": [
+            "16L_woDOX_t10"
+        ],
         "Sample": "woDOX_t10",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2016,7 +2660,9 @@
         "KO": NaN
     },
     "DOX_IC25_t10": {
-        "Replicate": "17L_DOX_IC25_t10",
+        "Replicate": [
+            "17L_DOX_IC25_t10"
+        ],
         "Sample": "DOX_IC25_t10",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -2025,7 +2671,9 @@
         "KO": NaN
     },
     "DOX_IC50_t10": {
-        "Replicate": "18L_DOX_IC50_t10",
+        "Replicate": [
+            "18L_DOX_IC50_t10"
+        ],
         "Sample": "DOX_IC50_t10",
         "Treatment": "DOX",
         "Dose": "IC50",
@@ -2034,7 +2682,9 @@
         "KO": NaN
     },
     "woDOX_t15": {
-        "Replicate": "19L_woDOX_t15",
+        "Replicate": [
+            "19L_woDOX_t15"
+        ],
         "Sample": "woDOX_t15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2043,7 +2693,9 @@
         "KO": NaN
     },
     "DOX_IC25_t15": {
-        "Replicate": "20L_DOX_IC25_t15",
+        "Replicate": [
+            "20L_DOX_IC25_t15"
+        ],
         "Sample": "DOX_IC25_t15",
         "Treatment": "DOX",
         "Dose": "IC25",
@@ -2052,7 +2704,9 @@
         "KO": NaN
     },
     "DOX_IC50_t15": {
-        "Replicate": "21L_DOX_IC50_t15",
+        "Replicate": [
+            "21L_DOX_IC50_t15"
+        ],
         "Sample": "DOX_IC50_t15",
         "Treatment": "DOX",
         "Dose": "IC50",
@@ -2061,7 +2715,9 @@
         "KO": NaN
     },
     "HMCESKO_A3A_t0": {
-        "Replicate": "1LK_HMCESKO_A3A_t0",
+        "Replicate": [
+            "1LK_HMCESKO_A3A_t0"
+        ],
         "Sample": "HMCESKO_A3A_t0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2070,7 +2726,9 @@
         "KO": "HMCES"
     },
     "HMCESKO_A3A_woDOX_t12": {
-        "Replicate": "2LK_HMCESKO_A3A_woDOX_t12",
+        "Replicate": [
+            "2LK_HMCESKO_A3A_woDOX_t12"
+        ],
         "Sample": "HMCESKO_A3A_woDOX_t12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2079,7 +2737,9 @@
         "KO": "HMCES"
     },
     "HMCESKO_A3A_woDOX_t17": {
-        "Replicate": "3LK_HMCESKO_A3A_woDOX_t17",
+        "Replicate": [
+            "3LK_HMCESKO_A3A_woDOX_t17"
+        ],
         "Sample": "HMCESKO_A3A_woDOX_t17",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2088,7 +2748,9 @@
         "KO": "HMCES"
     },
     "HMCESKO_A3A_DOX_IC25_t12": {
-        "Replicate": "4LK_HMCESKO_A3A_DOX_IC25_t12",
+        "Replicate": [
+            "4LK_HMCESKO_A3A_DOX_IC25_t12"
+        ],
         "Sample": "HMCESKO_A3A_DOX_IC25_t12",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -2097,7 +2759,9 @@
         "KO": "HMCES"
     },
     "HMCESKO_A3A_DOX_IC25_t17": {
-        "Replicate": "5LK_HMCESKO_A3A_DOX_IC25_t17",
+        "Replicate": [
+            "5LK_HMCESKO_A3A_DOX_IC25_t17"
+        ],
         "Sample": "HMCESKO_A3A_DOX_IC25_t17",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC25",
@@ -2106,7 +2770,9 @@
         "KO": "HMCES"
     },
     "HMCESKO_A3A_DOX_IC50_t12": {
-        "Replicate": "6LK_HMCESKO_A3A_DOX_IC50_t12",
+        "Replicate": [
+            "6LK_HMCESKO_A3A_DOX_IC50_t12"
+        ],
         "Sample": "HMCESKO_A3A_DOX_IC50_t12",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC50",
@@ -2115,7 +2781,9 @@
         "KO": "HMCES"
     },
     "HMCESKO_A3A_DOX_IC50_t17": {
-        "Replicate": "7LK_HMCESKO_A3A_DOX_IC50_t17",
+        "Replicate": [
+            "7LK_HMCESKO_A3A_DOX_IC50_t17"
+        ],
         "Sample": "HMCESKO_A3A_DOX_IC50_t17",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": "IC50",
@@ -2124,7 +2792,10 @@
         "KO": "HMCES"
     },
     "p53KO_A3A_woDOX": {
-        "Replicate": "6A_p53KO_A3A_woDOX_t15",
+        "Replicate": [
+            "5A_p53KO_A3A_woDOX_t12",
+            "6A_p53KO_A3A_woDOX_t15"
+        ],
         "Sample": "p53KO_A3A_woDOX",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2133,7 +2804,10 @@
         "KO": "TP53"
     },
     "p53KO_A3A_DOX": {
-        "Replicate": "11A_p53KO_A3A_DOX_t15",
+        "Replicate": [
+            "10A_p53KO_A3A_DOX_t12",
+            "11A_p53KO_A3A_DOX_t15"
+        ],
         "Sample": "p53KO_A3A_DOX",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": NaN,
@@ -2142,7 +2816,10 @@
         "KO": "TP53"
     },
     "p53KO_wt_woDOX": {
-        "Replicate": "22A_p53KO_wt_woDOX_t15",
+        "Replicate": [
+            "21A_p53KO_wt_woDOX_t12",
+            "22A_p53KO_wt_woDOX_t15"
+        ],
         "Sample": "p53KO_wt_woDOX",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2151,7 +2828,10 @@
         "KO": "TP53"
     },
     "p53KO_wt_DOX": {
-        "Replicate": "27A_p53KO_wt_DOX_t15",
+        "Replicate": [
+            "26A_p53KO_wt_DOX_t12",
+            "27A_p53KO_wt_DOX_t15"
+        ],
         "Sample": "p53KO_wt_DOX",
         "Treatment": "DOX",
         "Dose": NaN,
@@ -2160,7 +2840,10 @@
         "KO": "TP53"
     },
     "p53wt_A3A_woDOX": {
-        "Replicate": "38A_p53wt_A3A_woDOX_t15",
+        "Replicate": [
+            "37A_p53wt_A3A_woDOX_t12",
+            "38A_p53wt_A3A_woDOX_t15"
+        ],
         "Sample": "p53wt_A3A_woDOX",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2169,7 +2852,10 @@
         "KO": NaN
     },
     "p53wt_A3A_DOX": {
-        "Replicate": "43A_p53wt_A3A_DOX_t15",
+        "Replicate": [
+            "42A_p53wt_A3A_DOX_t12",
+            "43A_p53wt_A3A_DOX_t15"
+        ],
         "Sample": "p53wt_A3A_DOX",
         "Treatment": "APOBEC3A DOX-induced",
         "Dose": NaN,
@@ -2178,7 +2864,10 @@
         "KO": NaN
     },
     "p53wt_wt_woDOX": {
-        "Replicate": "54A_p53wt_wt_woDOX_t15",
+        "Replicate": [
+            "53A_p53wt_wt_woDOX_t12",
+            "54A_p53wt_wt_woDOX_t15"
+        ],
         "Sample": "p53wt_wt_woDOX",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2187,7 +2876,10 @@
         "KO": NaN
     },
     "p53wt_wt_DOX": {
-        "Replicate": "59A_p53wt_wt_DOX_t15",
+        "Replicate": [
+            "58A_p53wt_wt_DOX_t12",
+            "59A_p53wt_wt_DOX_t15"
+        ],
         "Sample": "p53wt_wt_DOX",
         "Treatment": "DOX",
         "Dose": NaN,
@@ -2196,7 +2888,11 @@
         "KO": NaN
     },
     "csb_illudins": {
-        "Replicate": "CSBko_IlludinS_T16_R3",
+        "Replicate": [
+            "CSBko_IlludinS_T16_R1",
+            "CSBko_IlludinS_T16_R2",
+            "CSBko_IlludinS_T16_R3"
+        ],
         "Sample": "csb_illudins",
         "Treatment": "Illudin S",
         "Dose": "2 nM",
@@ -2205,7 +2901,11 @@
         "KO": "CSB"
     },
     "csb_nt": {
-        "Replicate": "CSBko_UT_T12_R3",
+        "Replicate": [
+            "CSBko_UT_T12_R1",
+            "CSBko_UT_T12_R2",
+            "CSBko_UT_T12_R3"
+        ],
         "Sample": "csb_nt",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2214,7 +2914,11 @@
         "KO": "CSB"
     },
     "elof1_illudins": {
-        "Replicate": "ELOF1ko_IlludinS_T16_R3",
+        "Replicate": [
+            "ELOF1ko_IlludinS_T16_R1",
+            "ELOF1ko_IlludinS_T16_R2",
+            "ELOF1ko_IlludinS_T16_R3"
+        ],
         "Sample": "elof1_illudins",
         "Treatment": "Illudin S",
         "Dose": "5 nM",
@@ -2223,7 +2927,11 @@
         "KO": "ELOF1"
     },
     "elof1_init": {
-        "Replicate": "ELOF1ko_T0_R3",
+        "Replicate": [
+            "ELOF1ko_T0_R1",
+            "ELOF1ko_T0_R2",
+            "ELOF1ko_T0_R3"
+        ],
         "Sample": "elof1_init",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2232,7 +2940,11 @@
         "KO": "ELOF1"
     },
     "elof1_nt_xtra": {
-        "Replicate": "ELOF1ko_T12_R3",
+        "Replicate": [
+            "ELOF1ko_T12_R1",
+            "ELOF1ko_T12_R2",
+            "ELOF1ko_T12_R3"
+        ],
         "Sample": "elof1_nt_xtra",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2241,7 +2953,11 @@
         "KO": "ELOF1"
     },
     "elof1_nt": {
-        "Replicate": "ELOF1ko_UT_T12_R3",
+        "Replicate": [
+            "ELOF1ko_UT_T12_R1",
+            "ELOF1ko_UT_T12_R2",
+            "ELOF1ko_UT_T12_R3"
+        ],
         "Sample": "elof1_nt",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2250,7 +2966,11 @@
         "KO": "ELOF1"
     },
     "wt_illudins": {
-        "Replicate": "WT_IlludinS_T16_R3",
+        "Replicate": [
+            "WT_IlludinS_T16_R1",
+            "WT_IlludinS_T16_R2",
+            "WT_IlludinS_T16_R3"
+        ],
         "Sample": "wt_illudins",
         "Treatment": "Illudin S",
         "Dose": "25 nM",
@@ -2259,7 +2979,11 @@
         "KO": "WT"
     },
     "wt_init": {
-        "Replicate": "WT_T0_R3",
+        "Replicate": [
+            "WT_T0_R1",
+            "WT_T0_R2",
+            "WT_T0_R3"
+        ],
         "Sample": "wt_init",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2268,7 +2992,11 @@
         "KO": "WT"
     },
     "wt_nt": {
-        "Replicate": "WT_UT_T12_R3",
+        "Replicate": [
+            "WT_UT_T12_R1",
+            "WT_UT_T12_R2",
+            "WT_UT_T12_R3"
+        ],
         "Sample": "wt_nt",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2277,7 +3005,14 @@
         "KO": "WT"
     },
     "elof1_nt_both": {
-        "Replicate": "ELOF1ko_UT_T12_R3",
+        "Replicate": [
+            "ELOF1ko_T12_R1",
+            "ELOF1ko_T12_R2",
+            "ELOF1ko_T12_R3",
+            "ELOF1ko_UT_T12_R1",
+            "ELOF1ko_UT_T12_R2",
+            "ELOF1ko_UT_T12_R3"
+        ],
         "Sample": "elof1_nt_both",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2286,106 +3021,166 @@
         "KO": "ELOF1"
     },
     "ExpA_BCL2L1_Dropout": {
-        "Replicate": "OVCAR8_BCL2L1_Dropout_B",
+        "Replicate": [
+            "Meljuso_BCL2L1_Dropout_A",
+            "Meljuso_BCL2L1_Dropout_B",
+            "OVCAR8_BCL2L1_Dropout_A",
+            "OVCAR8_BCL2L1_Dropout_B"
+        ],
         "Sample": "ExpA_BCL2L1_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "OVCAR8",
-        "KO": "PARP1"
+        "Cell line": "Meljuso",
+        "KO": "BCL2L1"
     },
     "ExpA_Control_A1331852": {
-        "Replicate": "OVCAR8_Control_A1331852_B",
+        "Replicate": [
+            "Meljuso_Control_A1331852_A",
+            "Meljuso_Control_A1331852_B",
+            "OVCAR8_Control_A1331852_A",
+            "OVCAR8_Control_A1331852_B"
+        ],
         "Sample": "ExpA_Control_A1331852",
         "Treatment": "BCL2L1i (A-1331852)",
         "Dose": "250\u2009nM",
         "Days grown": 21.0,
-        "Cell line": "OVCAR8",
+        "Cell line": "Meljuso",
         "KO": "WT"
     },
     "ExpA_Control_Dropout": {
-        "Replicate": "OVCAR8_Control_Dropout_B",
+        "Replicate": [
+            "Meljuso_Control_Dropout_A",
+            "Meljuso_Control_Dropout_B",
+            "OVCAR8_Control_Dropout_A",
+            "OVCAR8_Control_Dropout_B"
+        ],
         "Sample": "ExpA_Control_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "OVCAR8",
+        "Cell line": "Meljuso",
         "KO": "WT"
     },
     "ExpA_Control_S63845": {
-        "Replicate": "OVCAR8_Control_S63845_B",
+        "Replicate": [
+            "Meljuso_Control_S63845_A",
+            "Meljuso_Control_S63845_B",
+            "OVCAR8_Control_S63845_A",
+            "OVCAR8_Control_S63845_B"
+        ],
         "Sample": "ExpA_Control_S63845",
         "Treatment": "MCL1i (S63845)",
         "Dose": "250\u2009nM",
         "Days grown": 21.0,
-        "Cell line": "OVCAR8",
+        "Cell line": "Meljuso",
         "KO": "WT"
     },
     "ExpA_MCL1_Dropout": {
-        "Replicate": "OVCAR8_MCL1_Dropout_B",
+        "Replicate": [
+            "Meljuso_MCL1_Dropout_A",
+            "Meljuso_MCL1_Dropout_B",
+            "OVCAR8_MCL1_Dropout_A",
+            "OVCAR8_MCL1_Dropout_B"
+        ],
         "Sample": "ExpA_MCL1_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "OVCAR8",
-        "KO": "BCL2L1"
+        "Cell line": "Meljuso",
+        "KO": "MCL1"
     },
     "ExpB_Control_Dropout": {
-        "Replicate": "A375_Control_Dropout_B",
+        "Replicate": [
+            "OVCAR8_Control_Dropout_A",
+            "OVCAR8_Control_Dropout_B",
+            "A375_Control_Dropout_A",
+            "A375_Control_Dropout_B"
+        ],
         "Sample": "ExpB_Control_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "A375",
+        "Cell line": "OVCAR8",
         "KO": "WT"
     },
     "ExpB_Control_Olaparib": {
-        "Replicate": "A375_Control_Olaparib_B",
+        "Replicate": [
+            "OVCAR8_Control_Olaparib_A",
+            "OVCAR8_Control_Olaparib_B",
+            "A375_Control_Olaparib_A",
+            "A375_Control_Olaparib_B"
+        ],
         "Sample": "ExpB_Control_Olaparib",
         "Treatment": "Olaparib",
-        "Dose": "250\u2009nM",
+        "Dose": "500\u2009nM",
         "Days grown": 21.0,
-        "Cell line": "A375",
-        "KO": "PARP1"
+        "Cell line": "OVCAR8",
+        "KO": "WT"
     },
     "ExpB_PARP1_Dropout": {
-        "Replicate": "A375_PARP1g2_Dropout_B",
+        "Replicate": [
+            "OVCAR8_PARP1g1_Dropout_A",
+            "OVCAR8_PARP1g1_Dropout_B",
+            "OVCAR8_PARP1g2_Dropout_A",
+            "OVCAR8_PARP1g2_Dropout_B",
+            "A375_PARP1g1_Dropout_A",
+            "A375_PARP1g1_Dropout_B",
+            "A375_PARP1g2_Dropout_A",
+            "A375_PARP1g2_Dropout_B"
+        ],
         "Sample": "ExpB_PARP1_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "A375",
+        "Cell line": "OVCAR8",
         "KO": "PARP1"
     },
     "ExpB_PARP1_g1_Dropout": {
-        "Replicate": "A375_PARP1g1_Dropout_B",
+        "Replicate": [
+            "OVCAR8_PARP1g1_Dropout_A",
+            "OVCAR8_PARP1g1_Dropout_B",
+            "A375_PARP1g1_Dropout_A",
+            "A375_PARP1g1_Dropout_B"
+        ],
         "Sample": "ExpB_PARP1_g1_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "A375",
+        "Cell line": "OVCAR8",
         "KO": "PARP1"
     },
     "ExpB_PARP1_g2_Dropout": {
-        "Replicate": "A375_PARP1g2_Dropout_B",
+        "Replicate": [
+            "OVCAR8_PARP1g2_Dropout_A",
+            "OVCAR8_PARP1g2_Dropout_B",
+            "A375_PARP1g2_Dropout_A",
+            "A375_PARP1g2_Dropout_B"
+        ],
         "Sample": "ExpB_PARP1_g2_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
-        "Cell line": "A375",
+        "Cell line": "OVCAR8",
         "KO": "PARP1"
     },
     "HAP1_Parental_Dropout": {
-        "Replicate": "HAP1_Parental_Dropout_B",
+        "Replicate": [
+            "HAP1_Parental_Dropout_A",
+            "HAP1_Parental_Dropout_B"
+        ],
         "Sample": "HAP1_Parental_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
         "Cell line": "HAP1",
-        "KO": "PARP1"
+        "KO": "WT"
     },
     "HAP1_Parental_Talazoparib": {
-        "Replicate": "HAP1_Parental_Talazoparib_B",
+        "Replicate": [
+            "HAP1_Parental_Talazoparib_A",
+            "HAP1_Parental_Talazoparib_B"
+        ],
         "Sample": "HAP1_Parental_Talazoparib",
         "Treatment": "Talazoparib",
         "Dose": "1.95\u2009nM",
@@ -2394,16 +3189,22 @@
         "KO": "WT"
     },
     "HAP1_PARP1_Dropout": {
-        "Replicate": "HAP1_PARP1_Dropout_B",
+        "Replicate": [
+            "HAP1_PARP1_Dropout_A",
+            "HAP1_PARP1_Dropout_B"
+        ],
         "Sample": "HAP1_PARP1_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
         "Days grown": 21.0,
         "Cell line": "HAP1",
-        "KO": "WT"
+        "KO": "PARP1"
     },
     "pDNA_pDNA_pDNA": {
-        "Replicate": "pDNA_pDNA_pDNA_B",
+        "Replicate": [
+            "pDNA_pDNA_pDNA_A",
+            "pDNA_pDNA_pDNA_B"
+        ],
         "Sample": "pDNA_pDNA_pDNA",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2412,7 +3213,9 @@
         "KO": NaN
     },
     "DLD1_WT_T0": {
-        "Replicate": "DLD1_WT_Day0",
+        "Replicate": [
+            "DLD1_WT_Day0"
+        ],
         "Sample": "DLD1_WT_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2421,7 +3224,10 @@
         "KO": NaN
     },
     "DLD1_WT_T15": {
-        "Replicate": "DLD1_WT_Day15B",
+        "Replicate": [
+            "DLD1_WT_Day15A",
+            "DLD1_WT_Day15B"
+        ],
         "Sample": "DLD1_WT_T15",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2430,7 +3236,10 @@
         "KO": NaN
     },
     "DLD1_WT_T18": {
-        "Replicate": "DLD1_WT_Day18B",
+        "Replicate": [
+            "DLD1_WT_Day18A",
+            "DLD1_WT_Day18B"
+        ],
         "Sample": "DLD1_WT_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2439,7 +3248,9 @@
         "KO": NaN
     },
     "DLD1_BRCA2_T0": {
-        "Replicate": "DLD1_dBRCA2_Day0",
+        "Replicate": [
+            "DLD1_dBRCA2_Day0"
+        ],
         "Sample": "DLD1_BRCA2_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2448,7 +3259,10 @@
         "KO": "BRCA2"
     },
     "DLD1_BRCA2_T24": {
-        "Replicate": "DLD1_dBRCA2_Day24B",
+        "Replicate": [
+            "DLD1_dBRCA2_Day24A",
+            "DLD1_dBRCA2_Day24B"
+        ],
         "Sample": "DLD1_BRCA2_T24",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2457,7 +3271,10 @@
         "KO": "BRCA2"
     },
     "DLD1_BRCA2_T27": {
-        "Replicate": "DLD1_dBRCA2_Day27B",
+        "Replicate": [
+            "DLD1_dBRCA2_Day27A",
+            "DLD1_dBRCA2_Day27B"
+        ],
         "Sample": "DLD1_BRCA2_T27",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2466,7 +3283,10 @@
         "KO": "BRCA2"
     },
     "RPE1_WT_CPT_T18": {
-        "Replicate": "RPE1_WT_CPT_Day18B",
+        "Replicate": [
+            "RPE1_WT_CPT_Day18A",
+            "RPE1_WT_CPT_Day18B"
+        ],
         "Sample": "RPE1_WT_CPT_T18",
         "Treatment": "Camptothecin",
         "Dose": NaN,
@@ -2475,7 +3295,9 @@
         "KO": NaN
     },
     "RPE1_WT_NT_T0": {
-        "Replicate": "RPE1_WT_Day0",
+        "Replicate": [
+            "RPE1_WT_Day0"
+        ],
         "Sample": "RPE1_WT_NT_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2484,7 +3306,10 @@
         "KO": NaN
     },
     "RPE1_WT_NT_T18": {
-        "Replicate": "RPE1_WT_Day18B",
+        "Replicate": [
+            "RPE1_WT_Day18A",
+            "RPE1_WT_Day18B"
+        ],
         "Sample": "RPE1_WT_NT_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2493,7 +3318,10 @@
         "KO": NaN
     },
     "RPE1_CIP2A_CPT_T18": {
-        "Replicate": "RPE1_dCIP2A_CPT_Day18B",
+        "Replicate": [
+            "RPE1_dCIP2A_CPT_Day18A",
+            "RPE1_dCIP2A_CPT_Day18B"
+        ],
         "Sample": "RPE1_CIP2A_CPT_T18",
         "Treatment": "Camptothecin",
         "Dose": NaN,
@@ -2502,7 +3330,10 @@
         "KO": "CIP2A"
     },
     "RPE1_CIP2A_CPT_T27": {
-        "Replicate": "RPE1_dCIP2A_CPT_Day27B",
+        "Replicate": [
+            "RPE1_dCIP2A_CPT_Day27A",
+            "RPE1_dCIP2A_CPT_Day27B"
+        ],
         "Sample": "RPE1_CIP2A_CPT_T27",
         "Treatment": "Camptothecin",
         "Dose": NaN,
@@ -2511,7 +3342,9 @@
         "KO": "CIP2A"
     },
     "RPE1_CIP2A_NT_T0": {
-        "Replicate": "RPE1_dCIP2A_Day0",
+        "Replicate": [
+            "RPE1_dCIP2A_Day0"
+        ],
         "Sample": "RPE1_CIP2A_NT_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2520,7 +3353,10 @@
         "KO": "CIP2A"
     },
     "RPE1_CIP2A_NT_T18": {
-        "Replicate": "RPE1_dCIP2A_Day18B",
+        "Replicate": [
+            "RPE1_dCIP2A_Day18A",
+            "RPE1_dCIP2A_Day18B"
+        ],
         "Sample": "RPE1_CIP2A_NT_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2529,7 +3365,10 @@
         "KO": "CIP2A"
     },
     "RPE1_CIP2A_NT_T27": {
-        "Replicate": "RPE1_dCIP2A_Day27B",
+        "Replicate": [
+            "RPE1_dCIP2A_Day27A",
+            "RPE1_dCIP2A_Day27B"
+        ],
         "Sample": "RPE1_CIP2A_NT_T27",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2538,7 +3377,10 @@
         "KO": "CIP2A"
     },
     "PD0": {
-        "Replicate": "PD0_RepB",
+        "Replicate": [
+            "PD0_RepA",
+            "PD0_RepB"
+        ],
         "Sample": "PD0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2547,7 +3389,10 @@
         "KO": NaN
     },
     "PD5": {
-        "Replicate": "PD5_RepB",
+        "Replicate": [
+            "PD5_RepA",
+            "PD5_RepB"
+        ],
         "Sample": "PD5",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2556,7 +3401,10 @@
         "KO": NaN
     },
     "PD5Cisp": {
-        "Replicate": "PD5Cisp_RepB",
+        "Replicate": [
+            "PD5Cisp_RepA",
+            "PD5Cisp_RepB"
+        ],
         "Sample": "PD5Cisp",
         "Treatment": "Cisplatin",
         "Dose": "1.5 uM",
@@ -2565,7 +3413,10 @@
         "KO": NaN
     },
     "PD10": {
-        "Replicate": "PD10_RepB",
+        "Replicate": [
+            "PD10_RepA",
+            "PD10_RepB"
+        ],
         "Sample": "PD10",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2574,7 +3425,10 @@
         "KO": NaN
     },
     "PD10Cisp": {
-        "Replicate": "PD10Cisp_RepB",
+        "Replicate": [
+            "PD10Cisp_RepA",
+            "PD10Cisp_RepB"
+        ],
         "Sample": "PD10Cisp",
         "Treatment": "Cisplatin",
         "Dose": "1.5 uM & 1 uM",
@@ -2583,7 +3437,11 @@
         "KO": NaN
     },
     "HEK293A_WT_T0_1": {
-        "Replicate": "TOC",
+        "Replicate": [
+            "TOA",
+            "TOB",
+            "TOC"
+        ],
         "Sample": "HEK293A_WT_T0_1",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2592,7 +3450,9 @@
         "KO": NaN
     },
     "HCT116_WT_T0_2": {
-        "Replicate": "HCT116_WT_DDR_T0",
+        "Replicate": [
+            "HCT116_WT_DDR_T0"
+        ],
         "Sample": "HCT116_WT_T0_2",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2601,7 +3461,9 @@
         "KO": NaN
     },
     "HCT116_TP53ko_T0_2": {
-        "Replicate": "HCT116_TP53KO_DDR_T0",
+        "Replicate": [
+            "HCT116_TP53KO_DDR_T0"
+        ],
         "Sample": "HCT116_TP53ko_T0_2",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2610,7 +3472,9 @@
         "KO": "TP53"
     },
     "HEK293A_WT_T0_2": {
-        "Replicate": "293A_DDR_T0",
+        "Replicate": [
+            "293A_DDR_T0"
+        ],
         "Sample": "HEK293A_WT_T0_2",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2619,7 +3483,11 @@
         "KO": NaN
     },
     "HEK293A_WT_DMSO_1": {
-        "Replicate": "DMSO_T21C",
+        "Replicate": [
+            "DMSO_T21A",
+            "DMSO_T21B",
+            "DMSO_T21C"
+        ],
         "Sample": "HEK293A_WT_DMSO_1",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -2628,7 +3496,11 @@
         "KO": NaN
     },
     "HCT116_WT_DMSO_2": {
-        "Replicate": "HCT116_WT_DMSO_T21C",
+        "Replicate": [
+            "HCT116_WT_DMSO_T21A",
+            "HCT116_WT_DMSO_T21B",
+            "HCT116_WT_DMSO_T21C"
+        ],
         "Sample": "HCT116_WT_DMSO_2",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -2637,7 +3509,11 @@
         "KO": NaN
     },
     "HCT116_TP53ko_DMSO_2": {
-        "Replicate": "HCT116_TP53KO_DMSO_T21C",
+        "Replicate": [
+            "HCT116_TP53KO_DMSO_T21A",
+            "HCT116_TP53KO_DMSO_T21B",
+            "HCT116_TP53KO_DMSO_T21C"
+        ],
         "Sample": "HCT116_TP53ko_DMSO_2",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -2646,7 +3522,11 @@
         "KO": "TP53"
     },
     "HEK293A_WT_DMSO_2": {
-        "Replicate": "293A_DMSO_T21C",
+        "Replicate": [
+            "293A_DMSO_T21A",
+            "293A_DMSO_T21B",
+            "293A_DMSO_T21C"
+        ],
         "Sample": "HEK293A_WT_DMSO_2",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -2655,7 +3535,11 @@
         "KO": NaN
     },
     "DLD1_WT_DMSO_2": {
-        "Replicate": "DLD-1_DMSO_T21C",
+        "Replicate": [
+            "DLD-1_DMSO_T21A",
+            "DLD-1_DMSO_T21B",
+            "DLD-1_DMSO_T21C"
+        ],
         "Sample": "DLD1_WT_DMSO_2",
         "Treatment": "DMSO",
         "Dose": NaN,
@@ -2664,7 +3548,11 @@
         "KO": NaN
     },
     "HEK293A_WT_ATMi_1": {
-        "Replicate": "KU_T21C",
+        "Replicate": [
+            "KU_T21A",
+            "KU_T21B",
+            "KU_T21C"
+        ],
         "Sample": "HEK293A_WT_ATMi_1",
         "Treatment": "ATMi (KU-55933)",
         "Dose": NaN,
@@ -2673,7 +3561,11 @@
         "KO": NaN
     },
     "HCT116_WT_ATRi_2": {
-        "Replicate": "HCT116_WT_ATRi_T21C",
+        "Replicate": [
+            "HCT116_WT_ATRi_T21A",
+            "HCT116_WT_ATRi_T21B",
+            "HCT116_WT_ATRi_T21C"
+        ],
         "Sample": "HCT116_WT_ATRi_2",
         "Treatment": "ATRi (AZD6738)",
         "Dose": NaN,
@@ -2682,7 +3574,11 @@
         "KO": NaN
     },
     "HCT116_TP53ko_ATRi_2": {
-        "Replicate": "HCT116_TP53KO_ATRi_T21C",
+        "Replicate": [
+            "HCT116_TP53KO_ATRi_T21A",
+            "HCT116_TP53KO_ATRi_T21B",
+            "HCT116_TP53KO_ATRi_T21C"
+        ],
         "Sample": "HCT116_TP53ko_ATRi_2",
         "Treatment": "ATRi (AZD6738)",
         "Dose": NaN,
@@ -2691,7 +3587,11 @@
         "KO": "TP53"
     },
     "DLD1_WT_ATRi_2": {
-        "Replicate": "DLD-1_ATRi_T21C",
+        "Replicate": [
+            "DLD-1_ATRi_T21A",
+            "DLD-1_ATRi_T21B",
+            "DLD-1_ATRi_T21C"
+        ],
         "Sample": "DLD1_WT_ATRi_2",
         "Treatment": "ATRi (AZD6738)",
         "Dose": NaN,
@@ -2700,7 +3600,11 @@
         "KO": NaN
     },
     "HEK293A_WT_CHK1i_1": {
-        "Replicate": "LY_T21C",
+        "Replicate": [
+            "LY_T21A",
+            "LY_T21B",
+            "LY_T21C"
+        ],
         "Sample": "HEK293A_WT_CHK1i_1",
         "Treatment": "CHK1i (LY2606368)",
         "Dose": NaN,
@@ -2709,7 +3613,11 @@
         "KO": NaN
     },
     "HEK293A_WT_Olap_1": {
-        "Replicate": "Ola_T21C",
+        "Replicate": [
+            "Ola_T21A",
+            "Ola_T21B",
+            "Ola_T21C"
+        ],
         "Sample": "HEK293A_WT_Olap_1",
         "Treatment": "Olaparib",
         "Dose": NaN,
@@ -2718,7 +3626,11 @@
         "KO": NaN
     },
     "HCT116_WT_Olap_2": {
-        "Replicate": "HCT116_WT_PARPi_T21C",
+        "Replicate": [
+            "HCT116_WT_PARPi_T21A",
+            "HCT116_WT_PARPi_T21B",
+            "HCT116_WT_PARPi_T21C"
+        ],
         "Sample": "HCT116_WT_Olap_2",
         "Treatment": "Olaparib",
         "Dose": NaN,
@@ -2727,7 +3639,11 @@
         "KO": NaN
     },
     "HCT116_TP53ko_Olap_2": {
-        "Replicate": "HCT116_TP53KO_PARPi_T21C",
+        "Replicate": [
+            "HCT116_TP53KO_PARPi_T21A",
+            "HCT116_TP53KO_PARPi_T21B",
+            "HCT116_TP53KO_PARPi_T21C"
+        ],
         "Sample": "HCT116_TP53ko_Olap_2",
         "Treatment": "Olaparib",
         "Dose": NaN,
@@ -2736,7 +3652,11 @@
         "KO": "TP53"
     },
     "DLD1_WT_Olap_2": {
-        "Replicate": "DLD-1_PARPi_T21C",
+        "Replicate": [
+            "DLD-1_PARPi_T21A",
+            "DLD-1_PARPi_T21B",
+            "DLD-1_PARPi_T21C"
+        ],
         "Sample": "DLD1_WT_Olap_2",
         "Treatment": "Olaparib",
         "Dose": NaN,
@@ -2745,7 +3665,11 @@
         "KO": NaN
     },
     "HEK293A_WT_HU_1": {
-        "Replicate": "HU_T21C",
+        "Replicate": [
+            "HU_T21A",
+            "HU_T21B",
+            "HU_T21C"
+        ],
         "Sample": "HEK293A_WT_HU_1",
         "Treatment": "Hydroxyurea",
         "Dose": NaN,
@@ -2754,7 +3678,11 @@
         "KO": NaN
     },
     "HEK293A_WT_MitoC_1": {
-        "Replicate": "MMC_T21C",
+        "Replicate": [
+            "MMC_T21A",
+            "MMC_T21B",
+            "MMC_T21C"
+        ],
         "Sample": "HEK293A_WT_MitoC_1",
         "Treatment": "Mitomycin C",
         "Dose": NaN,
@@ -2763,7 +3691,11 @@
         "KO": NaN
     },
     "HEK293A_WT_Camp_1": {
-        "Replicate": "CPT_T21C",
+        "Replicate": [
+            "CPT_T21A",
+            "CPT_T21B",
+            "CPT_T21C"
+        ],
         "Sample": "HEK293A_WT_Camp_1",
         "Treatment": "Camptothecin",
         "Dose": NaN,
@@ -2772,7 +3704,11 @@
         "KO": NaN
     },
     "HEK293A_WT_Etop_1": {
-        "Replicate": "Etp_T21C",
+        "Replicate": [
+            "Etp_T21A",
+            "Etp_T21B",
+            "Etp_T21C"
+        ],
         "Sample": "HEK293A_WT_Etop_1",
         "Treatment": "Etoposide",
         "Dose": NaN,
@@ -2781,7 +3717,9 @@
         "KO": NaN
     },
     "NT_HU_D8": {
-        "Replicate": "DMSO_NT_HU_D8",
+        "Replicate": [
+            "DMSO_NT_HU_D8"
+        ],
         "Sample": "NT_HU_D8",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2790,7 +3728,9 @@
         "KO": NaN
     },
     "HU_D8": {
-        "Replicate": "HU_D8",
+        "Replicate": [
+            "HU_D8"
+        ],
         "Sample": "HU_D8",
         "Treatment": "Hydroxyurea",
         "Dose": "100 \u00b5M",
@@ -2799,7 +3739,9 @@
         "KO": NaN
     },
     "NT_D0": {
-        "Replicate": "NT_HU_D0",
+        "Replicate": [
+            "NT_HU_D0"
+        ],
         "Sample": "NT_D0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2808,7 +3750,9 @@
         "KO": NaN
     },
     "NT_Pter_D8": {
-        "Replicate": "NT_Pter_D8",
+        "Replicate": [
+            "NT_Pter_D8"
+        ],
         "Sample": "NT_Pter_D8",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2817,7 +3761,9 @@
         "KO": NaN
     },
     "NT_Resv_D8": {
-        "Replicate": "NT_Resv_D8",
+        "Replicate": [
+            "NT_Resv_D8"
+        ],
         "Sample": "NT_Resv_D8",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2826,7 +3772,9 @@
         "KO": NaN
     },
     "Pter_D8": {
-        "Replicate": "Pter_D8",
+        "Replicate": [
+            "Pter_D8"
+        ],
         "Sample": "Pter_D8",
         "Treatment": "Pterostilbene",
         "Dose": "16 \u00b5M",
@@ -2835,7 +3783,9 @@
         "KO": NaN
     },
     "Resv_D8": {
-        "Replicate": "Resv_D8",
+        "Replicate": [
+            "Resv_D8"
+        ],
         "Sample": "Resv_D8",
         "Treatment": "Resveratrol",
         "Dose": "16 \u00b5M",
@@ -2844,7 +3794,9 @@
         "KO": NaN
     },
     "CAPAN1_T0": {
-        "Replicate": "CAPAN1_T0",
+        "Replicate": [
+            "CAPAN1_T0"
+        ],
         "Sample": "CAPAN1_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2853,7 +3805,9 @@
         "KO": NaN
     },
     "CAPAN1_T7_UT": {
-        "Replicate": "CAPAN1_T7_UT",
+        "Replicate": [
+            "CAPAN1_T7_UT"
+        ],
         "Sample": "CAPAN1_T7_UT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2862,7 +3816,9 @@
         "KO": NaN
     },
     "CAPAN1_T7_OLA": {
-        "Replicate": "CAPAN1_T7_OLA",
+        "Replicate": [
+            "CAPAN1_T7_OLA"
+        ],
         "Sample": "CAPAN1_T7_OLA",
         "Treatment": "Olaparib",
         "Dose": "10 nM",
@@ -2871,7 +3827,9 @@
         "KO": NaN
     },
     "SUM149PT_T0": {
-        "Replicate": "SUM149PT_T0",
+        "Replicate": [
+            "SUM149PT_T0"
+        ],
         "Sample": "SUM149PT_T0",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2880,7 +3838,9 @@
         "KO": NaN
     },
     "SUM149PT_T7_UT": {
-        "Replicate": "SUM149PT_T7_UT",
+        "Replicate": [
+            "SUM149PT_T7_UT"
+        ],
         "Sample": "SUM149PT_T7_UT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2889,7 +3849,9 @@
         "KO": NaN
     },
     "SUM149PT_T7_OLA": {
-        "Replicate": "SUM149PT_T7_OLA",
+        "Replicate": [
+            "SUM149PT_T7_OLA"
+        ],
         "Sample": "SUM149PT_T7_OLA",
         "Treatment": "Olaparib",
         "Dose": "10 nM",
@@ -2898,7 +3860,9 @@
         "KO": NaN
     },
     "pDNA_pDNA": {
-        "Replicate": "pDNA_pDNA_A",
+        "Replicate": [
+            "pDNA_pDNA_A"
+        ],
         "Sample": "pDNA_pDNA",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2907,7 +3871,10 @@
         "KO": NaN
     },
     "Control_Dropout": {
-        "Replicate": "Control_Dropout_B",
+        "Replicate": [
+            "Control_Dropout_A",
+            "Control_Dropout_B"
+        ],
         "Sample": "Control_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2916,7 +3883,10 @@
         "KO": NaN
     },
     "Control_S63845": {
-        "Replicate": "Control_S63845_B",
+        "Replicate": [
+            "Control_S63845_A",
+            "Control_S63845_B"
+        ],
         "Sample": "Control_S63845",
         "Treatment": NaN,
         "Dose": "MCL1i (S63845)",
@@ -2925,7 +3895,14 @@
         "KO": NaN
     },
     "MCL1KO_anchor_Dropout": {
-        "Replicate": "MCL1_g3_Dropout_B",
+        "Replicate": [
+            "MCL1_g1_Dropout_A",
+            "MCL1_g1_Dropout_B",
+            "MCL1_g2_Dropout_A",
+            "MCL1_g2_Dropout_B",
+            "MCL1_g3_Dropout_A",
+            "MCL1_g3_Dropout_B"
+        ],
         "Sample": "MCL1KO_anchor_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2934,7 +3911,10 @@
         "KO": "MCL1"
     },
     "NA_Dropout": {
-        "Replicate": "NA_Dropout_B",
+        "Replicate": [
+            "NA_Dropout_A",
+            "NA_Dropout_B"
+        ],
         "Sample": "NA_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2943,7 +3923,10 @@
         "KO": NaN
     },
     "MLC1KO_SCC_Dropout": {
-        "Replicate": "MLC1KO_Dropout_B",
+        "Replicate": [
+            "MLC1KO_Dropout_A",
+            "MLC1KO_Dropout_B"
+        ],
         "Sample": "MLC1KO_SCC_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2952,7 +3935,10 @@
         "KO": "MCL1"
     },
     "MLC1partialKO_SCC_Dropout": {
-        "Replicate": "MLC1partialKO_Dropout_B",
+        "Replicate": [
+            "MLC1partialKO_Dropout_A",
+            "MLC1partialKO_Dropout_B"
+        ],
         "Sample": "MLC1partialKO_SCC_Dropout",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2961,7 +3947,11 @@
         "KO": "MCL1"
     },
     "WT_NT": {
-        "Replicate": "WT_ND_c",
+        "Replicate": [
+            "WT_ND_a",
+            "WT_ND_b",
+            "WT_ND_c"
+        ],
         "Sample": "WT_NT",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2970,7 +3960,11 @@
         "KO": NaN
     },
     "ALC1KO_OLA": {
-        "Replicate": "ALC1_KO_OLA_c",
+        "Replicate": [
+            "ALC1_KO_OLA_a",
+            "ALC1_KO_OLA_b",
+            "ALC1_KO_OLA_c"
+        ],
         "Sample": "ALC1KO_OLA",
         "Treatment": "Olaparib",
         "Dose": "250 nM",
@@ -2979,7 +3973,10 @@
         "KO": "ACL1"
     },
     "WT_ATRi_T18": {
-        "Replicate": "WT_ATRi_T18B",
+        "Replicate": [
+            "WT_ATRi_T18A",
+            "WT_ATRi_T18B"
+        ],
         "Sample": "WT_ATRi_T18",
         "Treatment": "ATRi (AZD6738)",
         "Dose": "0.5 uM",
@@ -2988,7 +3985,10 @@
         "KO": NaN
     },
     "WT_CTRL_T18": {
-        "Replicate": "WT_CTRL_T18B",
+        "Replicate": [
+            "WT_CTRL_T18A",
+            "WT_CTRL_T18B"
+        ],
         "Sample": "WT_CTRL_T18",
         "Treatment": NaN,
         "Dose": NaN,
@@ -2997,7 +3997,11 @@
         "KO": NaN
     },
     "17_AAG": {
-        "Replicate": "17-AAG_c.4",
+        "Replicate": [
+            "17-AAG_c.2.1",
+            "17-AAG_c.2.2",
+            "17-AAG_c.4"
+        ],
         "Sample": "17_AAG",
         "Treatment": "Tanespimycin",
         "Dose": "500 nM",
@@ -3006,7 +4010,11 @@
         "KO": NaN
     },
     "BAPTA_AM": {
-        "Replicate": "BAPTA-AM_c.2.2",
+        "Replicate": [
+            "BAPTA-AM_c.2.1",
+            "BAPTA-AM_c.2.17",
+            "BAPTA-AM_c.2.2"
+        ],
         "Sample": "BAPTA_AM",
         "Treatment": "BAPTA-AM",
         "Dose": "3.9 uM",
@@ -3015,7 +4023,11 @@
         "KO": NaN
     },
     "BI_2536": {
-        "Replicate": "BI-2536_c.2.2",
+        "Replicate": [
+            "BI-2536_c.2.1",
+            "BI-2536_c.2.17",
+            "BI-2536_c.2.2"
+        ],
         "Sample": "BI_2536",
         "Treatment": "BI-2536",
         "Dose": "8 nM",
@@ -3024,7 +4036,11 @@
         "KO": NaN
     },
     "Bisindolylm": {
-        "Replicate": "Bisindolylm._c.2.2",
+        "Replicate": [
+            "Bisindolylm._c.2.1",
+            "Bisindolylm._c.2.17",
+            "Bisindolylm._c.2.2"
+        ],
         "Sample": "Bisindolylm",
         "Treatment": "Bisindolylmaleimide",
         "Dose": "5 uM",
@@ -3033,7 +4049,11 @@
         "KO": NaN
     },
     "Bleo": {
-        "Replicate": "Bleo_c.4",
+        "Replicate": [
+            "Bleo_c.2.1",
+            "Bleo_c.2.2",
+            "Bleo_c.4"
+        ],
         "Sample": "Bleo",
         "Treatment": "Bleocin",
         "Dose": "20 ng/mL",
@@ -3042,7 +4062,11 @@
         "KO": NaN
     },
     "Bortezomib": {
-        "Replicate": "Bortezomib_c.4",
+        "Replicate": [
+            "Bortezomib_c.2.1",
+            "Bortezomib_c.2.2",
+            "Bortezomib_c.4"
+        ],
         "Sample": "Bortezomib",
         "Treatment": "Bortezomib",
         "Dose": "6.5 nM",
@@ -3051,7 +4075,11 @@
         "KO": NaN
     },
     "Brefeldin_A": {
-        "Replicate": "Brefeldin_A_c.2.2",
+        "Replicate": [
+            "Brefeldin_A_c.2.1",
+            "Brefeldin_A_c.2.17",
+            "Brefeldin_A_c.2.2"
+        ],
         "Sample": "Brefeldin_A",
         "Treatment": "Brefeldin A",
         "Dose": "66.7 nM",
@@ -3060,7 +4088,11 @@
         "KO": NaN
     },
     "Camptothecin": {
-        "Replicate": "Camptothecin_c.4",
+        "Replicate": [
+            "Camptothecin_c.2.1",
+            "Camptothecin_c.2.2",
+            "Camptothecin_c.4"
+        ],
         "Sample": "Camptothecin",
         "Treatment": "Camptothecin",
         "Dose": "1 nM",
@@ -3069,7 +4101,11 @@
         "KO": NaN
     },
     "CB_5083": {
-        "Replicate": "CB-5083_c.4",
+        "Replicate": [
+            "CB-5083_c.2.1",
+            "CB-5083_c.2.2",
+            "CB-5083_c.4"
+        ],
         "Sample": "CB_5083",
         "Treatment": "CB-5083",
         "Dose": "300 nM",
@@ -3078,7 +4114,11 @@
         "KO": NaN
     },
     "Cisplatin": {
-        "Replicate": "Cisplatin_c.4",
+        "Replicate": [
+            "Cisplatin_c.2.1",
+            "Cisplatin_c.2.2",
+            "Cisplatin_c.4"
+        ],
         "Sample": "Cisplatin",
         "Treatment": "Cisplatin",
         "Dose": "200 nM",
@@ -3087,7 +4127,11 @@
         "KO": NaN
     },
     "Colchicine": {
-        "Replicate": "Colchicine_c.4",
+        "Replicate": [
+            "Colchicine_c.2.1",
+            "colchicine_c.2.2",
+            "Colchicine_c.4"
+        ],
         "Sample": "Colchicine",
         "Treatment": "Colchicine",
         "Dose": "15 nM",
@@ -3096,7 +4140,11 @@
         "KO": NaN
     },
     "Cyclohex": {
-        "Replicate": "Cyclohex._c.2.2",
+        "Replicate": [
+            "Cyclohex._c.2.1",
+            "Cyclohex._c.2.17",
+            "Cyclohex._c.2.2"
+        ],
         "Sample": "Cyclohex",
         "Treatment": "Cycloheximide",
         "Dose": "0.34 uM",
@@ -3105,7 +4153,11 @@
         "KO": NaN
     },
     "CytoD": {
-        "Replicate": "CytoD_c.4",
+        "Replicate": [
+            "CytoD_c.2.1",
+            "CytoD_c.2.2",
+            "CytoD_c.4"
+        ],
         "Sample": "CytoD",
         "Treatment": "Cytochalasin D",
         "Dose": "140 nM",
@@ -3114,7 +4166,11 @@
         "KO": NaN
     },
     "DCA": {
-        "Replicate": "DCA_c.2.2",
+        "Replicate": [
+            "DCA_c.2.1",
+            "DCA_c.2.17",
+            "DCA_c.2.2"
+        ],
         "Sample": "DCA",
         "Treatment": "Dichloroacetic acid",
         "Dose": "7.5 mM",
@@ -3123,7 +4179,11 @@
         "KO": NaN
     },
     "FCCP": {
-        "Replicate": "FCCP_c.4",
+        "Replicate": [
+            "FCCP_c.2.1",
+            "FCCP_c.2.2",
+            "FCCP_c.4"
+        ],
         "Sample": "FCCP",
         "Treatment": "FCCP",
         "Dose": "10 uM",
@@ -3132,7 +4192,11 @@
         "KO": NaN
     },
     "Flavo": {
-        "Replicate": "Flavo_c.2.2",
+        "Replicate": [
+            "Flavo_c.2.1",
+            "Flavo_c.2.17",
+            "Flavo_c.2.2"
+        ],
         "Sample": "Flavo",
         "Treatment": "Flavopiridol ",
         "Dose": "140 nM",
@@ -3141,7 +4205,11 @@
         "KO": NaN
     },
     "GDC0449": {
-        "Replicate": "GDC-0449_c.2.2",
+        "Replicate": [
+            "GDC-0449_c.2.1",
+            "GDC-0449_c.2.17",
+            "GDC-0449_c.2.2"
+        ],
         "Sample": "GDC0449",
         "Treatment": "Vismodegib",
         "Dose": "83 uM",
@@ -3150,7 +4218,11 @@
         "KO": NaN
     },
     "GDC0068": {
-        "Replicate": "GDC0068_c.4",
+        "Replicate": [
+            "GDC0068_c.2.1",
+            "GDC0068_c.2.2",
+            "GDC0068_c.4"
+        ],
         "Sample": "GDC0068",
         "Treatment": "Ipatasertib",
         "Dose": "1 uM",
@@ -3159,7 +4231,11 @@
         "KO": NaN
     },
     "GDC00941": {
-        "Replicate": "GDC00941_c.4",
+        "Replicate": [
+            "GDC00941_c.2.1",
+            "GDC00941_c.2.2",
+            "GDC00941_c.4"
+        ],
         "Sample": "GDC00941",
         "Treatment": "Pictilisib",
         "Dose": "500 nM",
@@ -3168,7 +4244,11 @@
         "KO": NaN
     },
     "Harringtonine": {
-        "Replicate": "Harringtonine_c.4",
+        "Replicate": [
+            "Harringtonine_c.2.1",
+            "Harringtonine_c.2.2",
+            "Harringtonine_c.4"
+        ],
         "Sample": "Harringtonine",
         "Treatment": "Harringtonine",
         "Dose": "35 nM",
@@ -3177,7 +4257,11 @@
         "KO": NaN
     },
     "Imatinib": {
-        "Replicate": "Imatinib_c.2.2",
+        "Replicate": [
+            "Imatinib_c.2.1",
+            "Imatinib_c.2.17",
+            "Imatinib_c.2.2"
+        ],
         "Sample": "Imatinib",
         "Treatment": "Imatinib mesylate",
         "Dose": "27.4 uM",
@@ -3186,7 +4270,11 @@
         "KO": NaN
     },
     "Ionomycin": {
-        "Replicate": "Ionomycin_c.2.2",
+        "Replicate": [
+            "Ionomycin_c.2.1",
+            "Ionomycin_c.2.17",
+            "Ionomycin_c.2.2"
+        ],
         "Sample": "Ionomycin",
         "Treatment": "Ionomycin",
         "Dose": "0.97 uM",
@@ -3195,7 +4283,11 @@
         "KO": NaN
     },
     "JG_231": {
-        "Replicate": "JG-231_c.2.2",
+        "Replicate": [
+            "JG-231_c.2.1",
+            "JG-231_c.2.17",
+            "JG-231_c.2.2"
+        ],
         "Sample": "JG_231",
         "Treatment": "JG-231",
         "Dose": "1.5 uM",
@@ -3204,7 +4296,11 @@
         "KO": NaN
     },
     "Latrunc_A": {
-        "Replicate": "Latrunc._A_c.2.2",
+        "Replicate": [
+            "Latrunc._A_c.2.1",
+            "Latrunc._A_c.2.17",
+            "Latrunc._A_c.2.2"
+        ],
         "Sample": "Latrunc_A",
         "Treatment": "Latrunculin A",
         "Dose": "80 nM",
@@ -3213,7 +4309,11 @@
         "KO": NaN
     },
     "Lee011": {
-        "Replicate": "Lee011_c.4",
+        "Replicate": [
+            "Lee011_c.2.1",
+            "Lee011_c.2.2",
+            "Lee011_c.4"
+        ],
         "Sample": "Lee011",
         "Treatment": "Ribociclib",
         "Dose": "2.5 uM",
@@ -3222,7 +4322,10 @@
         "KO": NaN
     },
     "Lepto_B": {
-        "Replicate": "Lepto_B_c.2.2",
+        "Replicate": [
+            "Lepto_B_c.2.17",
+            "Lepto_B_c.2.2"
+        ],
         "Sample": "Lepto_B",
         "Treatment": "Leptomycin B",
         "Dose": "1.22  nM",
@@ -3231,7 +4334,11 @@
         "KO": NaN
     },
     "Nicotinamide": {
-        "Replicate": "Nicotinamide_c.2.2",
+        "Replicate": [
+            "Nicotinamide_c.2.1",
+            "Nicotinamide_c.2.17",
+            "Nicotinamide_c.2.2"
+        ],
         "Sample": "Nicotinamide",
         "Treatment": "Nicotinamide",
         "Dose": "12 mM",
@@ -3240,7 +4347,11 @@
         "KO": NaN
     },
     "Palbociclib": {
-        "Replicate": "Palbociclib_c.4",
+        "Replicate": [
+            "Palbociclib_c.2.1",
+            "Palbociclib_c.2.2",
+            "Palbociclib_c.4"
+        ],
         "Sample": "Palbociclib",
         "Treatment": "Palbociclib",
         "Dose": "1.5 uM",
@@ -3249,7 +4360,10 @@
         "KO": NaN
     },
     "Palbociclib_t12": {
-        "Replicate": "PD_T12_c.2.2",
+        "Replicate": [
+            "PD_T12_c.2.1",
+            "PD_T12_c.2.2"
+        ],
         "Sample": "Palbociclib_t12",
         "Treatment": "Palbociclib",
         "Dose": "1.5 uM",
@@ -3258,7 +4372,10 @@
         "KO": NaN
     },
     "Palbociclib_t2": {
-        "Replicate": "PD_T2_c.2.2",
+        "Replicate": [
+            "PD_T2_c.2.1",
+            "PD_T2_c.2.2"
+        ],
         "Sample": "Palbociclib_t2",
         "Treatment": "Palbociclib",
         "Dose": "1.5 uM",
@@ -3267,7 +4384,10 @@
         "KO": NaN
     },
     "Palbociclib_t4": {
-        "Replicate": "PD_T4_c.2.2",
+        "Replicate": [
+            "PD_T4_c.2.1",
+            "PD_T4_c.2.2"
+        ],
         "Sample": "Palbociclib_t4",
         "Treatment": "Palbociclib",
         "Dose": "1.5 uM",
@@ -3276,7 +4396,11 @@
         "KO": NaN
     },
     "Pimasertib": {
-        "Replicate": "Pimasertib_c.2.2",
+        "Replicate": [
+            "Pimasertib_c.2.1",
+            "Pimasertib_c.2.17",
+            "Pimasertib_c.2.2"
+        ],
         "Sample": "Pimasertib",
         "Treatment": "Pimasertib",
         "Dose": "19.9 uM",
@@ -3285,7 +4409,11 @@
         "KO": NaN
     },
     "Pladienolide": {
-        "Replicate": "Pladienolide_c.2.2",
+        "Replicate": [
+            "Pladienolide_c.2.1",
+            "Pladienolide_c.2.17",
+            "Pladienolide_c.2.2"
+        ],
         "Sample": "Pladienolide",
         "Treatment": "Pladienolide B",
         "Dose": "5.42 nM",
@@ -3294,7 +4422,10 @@
         "KO": NaN
     },
     "plasmid": {
-        "Replicate": "GeCKO_plasmid_1",
+        "Replicate": [
+            "plasmid",
+            "GeCKO_plasmid_1"
+        ],
         "Sample": "plasmid",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3303,7 +4434,11 @@
         "KO": NaN
     },
     "post_dox_B": {
-        "Replicate": "post-dox_B_c.4",
+        "Replicate": [
+            "post-dox_B_c.2.1",
+            "post-dox_B_c.2.2",
+            "post-dox_B_c.4"
+        ],
         "Sample": "post_dox_B",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3312,7 +4447,14 @@
         "KO": NaN
     },
     "post_dox": {
-        "Replicate": "post-dox_c.4",
+        "Replicate": [
+            "post-dox.1_c.2.1",
+            "post-dox.1_c.2.2",
+            "post-dox_c.2.1",
+            "post-dox_c.2.17",
+            "post-dox_c.2.2",
+            "post-dox_c.4"
+        ],
         "Sample": "post_dox",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3321,7 +4463,10 @@
         "KO": NaN
     },
     "Pravastatin": {
-        "Replicate": "Pravastatin_c.2.17",
+        "Replicate": [
+            "Pravastatin_c.2.1",
+            "Pravastatin_c.2.17"
+        ],
         "Sample": "Pravastatin",
         "Treatment": "Pravastatin",
         "Dose": "0.4 nM",
@@ -3330,7 +4475,20 @@
         "KO": NaN
     },
     "pre_dox": {
-        "Replicate": "pre-dox_2_c.4",
+        "Replicate": [
+            "pre-dox_1.1_c.2.1",
+            "pre-dox_1.1_c.2.2",
+            "pre-dox_1_c.2.1",
+            "pre-dox_1_c.2.17",
+            "pre-dox_1_c.2.2",
+            "pre-dox_1_c.4",
+            "pre-dox_2.1_c.2.1",
+            "pre-dox_2.1_c.2.2",
+            "pre-dox_2_c.2.1",
+            "pre-dox_2_c.2.17",
+            "pre-dox_2_c.2.2",
+            "pre-dox_2_c.4"
+        ],
         "Sample": "pre_dox",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3339,7 +4497,11 @@
         "KO": NaN
     },
     "pre_dox_B": {
-        "Replicate": "pre-dox_B_c.4",
+        "Replicate": [
+            "pre-dox_B_c.2.1",
+            "pre-dox_B_c.2.2",
+            "pre-dox_B_c.4"
+        ],
         "Sample": "pre_dox_B",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3348,7 +4510,11 @@
         "KO": NaN
     },
     "Rapamycin": {
-        "Replicate": "Rapamycin_c.4",
+        "Replicate": [
+            "Rapamycin_c.2.1",
+            "Rapamycin_c.2.2",
+            "Rapamycin_c.4"
+        ],
         "Sample": "Rapamycin",
         "Treatment": "Rapamycin",
         "Dose": "1.5 nM",
@@ -3357,7 +4523,11 @@
         "KO": NaN
     },
     "Ro_3306": {
-        "Replicate": "Ro-3306_c.4",
+        "Replicate": [
+            "Ro-3306_c.2.1",
+            "Ro-3306_c.2.2",
+            "Ro-3306_c.4"
+        ],
         "Sample": "Ro_3306",
         "Treatment": "RO-3306",
         "Dose": "1.5 uM",
@@ -3366,7 +4536,11 @@
         "KO": NaN
     },
     "TAK_901": {
-        "Replicate": "TAK-901_c.2.2",
+        "Replicate": [
+            "TAK-901_c.2.1",
+            "TAK-901_c.2.17",
+            "TAK-901_c.2.2"
+        ],
         "Sample": "TAK_901",
         "Treatment": "TAK-901",
         "Dose": "200 nM",
@@ -3375,7 +4549,11 @@
         "KO": NaN
     },
     "Taxol": {
-        "Replicate": "Taxol_c.4",
+        "Replicate": [
+            "Taxol_c.2.1",
+            "Taxol_c.2.2",
+            "Taxol_c.4"
+        ],
         "Sample": "Taxol",
         "Treatment": "Paclitaxel",
         "Dose": "34 nM",
@@ -3384,7 +4562,11 @@
         "KO": NaN
     },
     "Thapsigargin": {
-        "Replicate": "Thapsigargin_c.4",
+        "Replicate": [
+            "Thapsigagin_c.2.1",
+            "Thapsigargin_c.2.2",
+            "Thapsigargin_c.4"
+        ],
         "Sample": "Thapsigargin",
         "Treatment": "Thapsigargin",
         "Dose": "4 nM",
@@ -3393,7 +4575,10 @@
         "KO": NaN
     },
     "TTFA": {
-        "Replicate": "TTFA_c.2.2",
+        "Replicate": [
+            "TTFA_c.2.1",
+            "TTFA_c.2.2"
+        ],
         "Sample": "TTFA",
         "Treatment": "2-Thenoyltrifluoroacetone (TTFA)",
         "Dose": "10 uM",
@@ -3402,7 +4587,11 @@
         "KO": NaN
     },
     "Tunicamycin": {
-        "Replicate": "Tunicamycin_c.4",
+        "Replicate": [
+            "Tunicamycin_c.2.1",
+            "Tunicamycin_c.2.2",
+            "Tunicamycin_c.4"
+        ],
         "Sample": "Tunicamycin",
         "Treatment": "Tunicamycin",
         "Dose": "0.15 nM",
@@ -3411,7 +4600,20 @@
         "KO": NaN
     },
     "untreated": {
-        "Replicate": "UT_2_c.4",
+        "Replicate": [
+            "UT_1.1_c.2.1",
+            "UT_1.1_c.2.2",
+            "UT_1_c.2.1",
+            "UT_1_c.2.17",
+            "UT_1_c.2.2",
+            "UT_1_c.4",
+            "UT_2.1_c.2.1",
+            "UT_2.1_c.2.2",
+            "UT_2_c.2.1",
+            "UT_2_c.2.17",
+            "UT_2_c.2.2",
+            "UT_2_c.4"
+        ],
         "Sample": "untreated",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3420,7 +4622,10 @@
         "KO": NaN
     },
     "untreated_C12": {
-        "Replicate": "UT_T12_c.2.2",
+        "Replicate": [
+            "UT_T12_c.2.1",
+            "UT_T12_c.2.2"
+        ],
         "Sample": "untreated_C12",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3429,7 +4634,10 @@
         "KO": NaN
     },
     "untreated_C2": {
-        "Replicate": "UT_T2_c.2.2",
+        "Replicate": [
+            "UT_T2_c.2.1",
+            "UT_T2_c.2.2"
+        ],
         "Sample": "untreated_C2",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3438,7 +4646,10 @@
         "KO": NaN
     },
     "untreated_C4": {
-        "Replicate": "UT_T4_c.2.2",
+        "Replicate": [
+            "UT_T4_c.2.1",
+            "UT_T4_c.2.2"
+        ],
         "Sample": "untreated_C4",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3447,7 +4658,11 @@
         "KO": NaN
     },
     "untreated_B": {
-        "Replicate": "UT_T8_B_c.4",
+        "Replicate": [
+            "UT_T8_B_c.2.1",
+            "UT_T8_B_c.2.2",
+            "UT_T8_B_c.4"
+        ],
         "Sample": "untreated_B",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3456,7 +4671,11 @@
         "KO": NaN
     },
     "Vinblastine": {
-        "Replicate": "Vinblastine_c.4",
+        "Replicate": [
+            "Vinblastine_c.2.1",
+            "Vinblastine_c.2.2",
+            "Vinblastine_c.4"
+        ],
         "Sample": "Vinblastine",
         "Treatment": "Vinblastine",
         "Dose": "3 nM",
@@ -3465,7 +4684,11 @@
         "KO": NaN
     },
     "Vorinostat": {
-        "Replicate": "Vorinostat_c.2.2",
+        "Replicate": [
+            "Vorinostat_c.2.1",
+            "Vorinostat_c.2.17",
+            "Vorinostat_c.2.2"
+        ],
         "Sample": "Vorinostat",
         "Treatment": "Vorinostat",
         "Dose": "0.9 uM",
@@ -3474,7 +4697,10 @@
         "KO": NaN
     },
     "dmso": {
-        "Replicate": "GeCKO_DMSO_2",
+        "Replicate": [
+            "GeCKO_DMSO_1",
+            "GeCKO_DMSO_2"
+        ],
         "Sample": "dmso",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3483,7 +4709,10 @@
         "KO": NaN
     },
     "olap": {
-        "Replicate": "GeCKO_Olaparib_2",
+        "Replicate": [
+            "GeCKO_Olaparib_1",
+            "GeCKO_Olaparib_2"
+        ],
         "Sample": "olap",
         "Treatment": "Olaparib",
         "Dose": "3 \u03bcM",
@@ -3492,7 +4721,12 @@
         "KO": NaN
     },
     "CCNE1_T6": {
-        "Replicate": "TKOv3_FT282.CCNE1oe_C4_NT_T6B",
+        "Replicate": [
+            "TKOv3_FT282.CCNE1oe_C3_NT_T6A",
+            "TKOv3_FT282.CCNE1oe_C3_NT_T6B",
+            "TKOv3_FT282.CCNE1oe_C4_NT_T6A",
+            "TKOv3_FT282.CCNE1oe_C4_NT_T6B"
+        ],
         "Sample": "CCNE1_T6",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3501,16 +4735,23 @@
         "KO": "CCNE1-high|TP53-R175H"
     },
     "CCNE1_T21": {
-        "Replicate": "TKOv3_FT282.CCNE1oe_C4_RP6306_T21B",
+        "Replicate": [
+            "TKOv3_FT282.CCNE1oe_C3_RP6306_T21A",
+            "TKOv3_FT282.CCNE1oe_C3_RP6306_T21B",
+            "TKOv3_FT282.CCNE1oe_C4_RP6306_T21A",
+            "TKOv3_FT282.CCNE1oe_C4_RP6306_T21B"
+        ],
         "Sample": "CCNE1_T21",
         "Treatment": "RP6306 (PKMYT1-inhib)",
-        "Dose": "80\u2009nM",
+        "Dose": "40\u2009nM",
         "Days grown": 21,
         "Cell line": "FT282",
         "KO": "CCNE1-high|TP53-R175H"
     },
     "dko_vola": {
-        "Replicate": "MCF10Ako_treated",
+        "Replicate": [
+            "MCF10Ako_treated"
+        ],
         "Sample": "dko_vola",
         "Treatment": "Volasertib (PLK1i)",
         "Dose": "10 nM",
@@ -3519,7 +4760,9 @@
         "KO": "ARID1A"
     },
     "mcf_vola": {
-        "Replicate": "MCF10Awt_treated",
+        "Replicate": [
+            "MCF10Awt_treated"
+        ],
         "Sample": "mcf_vola",
         "Treatment": "Volasertib (PLK1i)",
         "Dose": "10 nM",
@@ -3528,7 +4771,9 @@
         "KO": NaN
     },
     "dko_nt": {
-        "Replicate": "MCF10Ako",
+        "Replicate": [
+            "MCF10Ako"
+        ],
         "Sample": "dko_nt",
         "Treatment": NaN,
         "Dose": NaN,
@@ -3537,7 +4782,9 @@
         "KO": "ARID1A"
     },
     "mcf_nt": {
-        "Replicate": "MCF10Awt",
+        "Replicate": [
+            "MCF10Awt"
+        ],
         "Sample": "mcf_nt",
         "Treatment": NaN,
         "Dose": NaN,
