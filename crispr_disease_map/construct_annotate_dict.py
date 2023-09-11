@@ -1,4 +1,5 @@
 import json
+import os.path
 
 import pandas as pd
 
@@ -13,6 +14,7 @@ if __name__ == "__main__":
     print(annotation_data_folder + '*.tsv')
 
     replicate_to_sample = {}
+    replicate_to_filename = {}
     sample_to_annotation = {}
     for file in glob(annotation_data_folder + '*.xlsx'):
         print(file)
@@ -22,6 +24,7 @@ if __name__ == "__main__":
             zip(df['Replicate'], df['Sample'], df['Treatment'], df['Dose'], df['Days grown'], df['Cell line'], df['KO']):
             
             replicate_to_sample[replicate] = sample
+            replicate_to_filename[replicate] = os.path.basename(file)
             sample_to_annotation[sample] = {'Replicate': replicate,
                                             'Sample': sample,
                                             'Treatment': treatment,
@@ -38,3 +41,6 @@ if __name__ == "__main__":
 
     with open(annotate_dict_output_folder + 'sample_to_annotation.json', "w") as outfile:
         outfile.write(json.dumps(sample_to_annotation, indent=4))
+
+    with open(annotate_dict_output_folder + 'replicate_to_filename.json', "w") as outfile:
+        outfile.write(json.dumps(replicate_to_filename, indent=4))
