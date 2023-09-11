@@ -7,6 +7,7 @@ from glob import glob
 from pprint import pprint
 
 annotation_data_folder = 'data/external/'
+counts_data_folder = 'data/processed_counts_external/'
 annotate_dict_output_folder = 'data/dict_annotation/'
 
 
@@ -24,7 +25,11 @@ if __name__ == "__main__":
             zip(df['Replicate'], df['Sample'], df['Treatment'], df['Dose'], df['Days grown'], df['Cell line'], df['KO']):
             
             replicate_to_sample[replicate] = sample
-            replicate_to_filename[replicate] = os.path.basename(file)
+
+            filename = os.path.basename(file).replace('.xlsx', '.counts.tsv')
+            assert(os.path.isfile(counts_data_folder + filename))
+            replicate_to_filename[replicate] = filename
+            
             sample_to_annotation[sample] = {'Replicate': replicate,
                                             'Sample': sample,
                                             'Treatment': treatment,
