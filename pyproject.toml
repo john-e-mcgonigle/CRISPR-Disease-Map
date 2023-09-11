@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "crispr-disease-map"
+version = "0.1.0"
+description = ""
+authors = ["John McGonigle <john.mcgonigle@insmed.com>"]
+readme = "README.md"
+packages = [{include = "crispr_disease_map"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
