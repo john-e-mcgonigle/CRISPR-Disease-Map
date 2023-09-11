@@ -141,7 +141,11 @@
                                             <td>{{screen.name}}</td>
                                             <td>{{screen.genes_count}} LINK?</td>
                                             <td>{{screen.samples_count}}</td>
-                                            <td>CHARTS LINK</td>
+                                            <td>
+                                                <a href="screen_{{screen.name}}.html">
+                                                    <div>Charts</div>
+                                                </a>
+                                            </td>
                                         </tr>
                                         {% endfor %}
                                     </tbody>
