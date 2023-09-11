@@ -1,14 +1,9 @@
 from typing import List
 
-from sqlalchemy import Table
-from sqlalchemy.orm import relationship
 from sqlalchemy.orm import Mapped
-from sqlalchemy import Column
-from sqlalchemy import ForeignKey
 from sqlalchemy.orm import mapped_column
 
 from sqlalchemy.orm import relationship
-from sqlalchemy.orm.exc import DetachedInstanceError
 
 from crispr_disease_map import db
 
