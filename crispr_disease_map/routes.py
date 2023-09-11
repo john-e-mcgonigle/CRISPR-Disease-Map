@@ -38,3 +38,11 @@ def screens():
         }
     ]
     return render_template('screens.html', screens=screens)
+
+@app.route('/gene_<gene_name>.html')
+def gene(gene_name):
+    return render_template('gene_charts.html', gene_name=gene_name)
+
+@app.route('/screen_<screen_name>.html')
+def screen(screen_name):
+    return render_template('screen_charts.html', screen_name=screen_name)
